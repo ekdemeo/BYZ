@@ -52,6 +52,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BYZ.Core\BYZ.Core.csproj">
+      <Project>{E10826CC-38B8-4C14-A9F7-B042A5283053}</Project>
+      <Name>BYZ.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BYZ.Data\BYZ.Data.csproj">
       <Project>{70465e88-b995-4607-b38e-af03b45adf50}</Project>
       <Name>BYZ.Data</Name>

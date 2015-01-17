@@ -1,4 +1,6 @@
-﻿namespace BYZ.Core.Model
+﻿using System.Xml.Serialization;
+
+namespace BYZ.Core.Model
 {
     public enum Underline
     {
@@ -6,14 +8,15 @@
         Double
     }
 
+    [XmlRoot("W")]
     public class Word
     {
+        [XmlAttribute("T")]
         public string Pol { get; set; }
 
-        public string Byz { get; set; }
-
+        [XmlAttribute("S")]
         public string Strong { get; set; }
 
-        public Underline Underline { get; set; }
+        //public Underline Underline { get; set; }
     }
 }

@@ -6,36 +6,49 @@ namespace BYZ.Core
 {
     public class Translator
     {
-        public void AddLinksForNonTranslatedWords(List<Pol> pol,
-            List<Byz> byz, List<Link> link)
+        public List<WordTranslation> Translate(List<Pol> pol, List<Byz> byz, List<Link> link)
         {
-            byz.Add(new Byz(0, "", 0));
+            AddLinksForNonTranslatedWords(pol, byz, link);
 
-            foreach (var word in pol.Where(w => w.Word.First() == '(' && w.Word.Last() == ')'))
-            {
-                link.Add(new Link(word.Uid, 0));
-            }
-        }
-
-
-        public IEnumerable<WordTranslation> Translate(IEnumerable<Pol> pol,
-            IEnumerable<Byz> byz, IEnumerable<Link> link)
-        {
             var result = from p in pol
                          join l in link on p.Uid equals l.Pol
                          join b in byz on l.Byz equals b.Uid
-                         group b by p.Word
+                         group b by new { p.Word, p.Book, p.Chapter, p.Verse, p.No }
                              into g
                              let byzWords = g.ToList()
-                             let polWord = g.Key
+                             let word = g.Key.Word
+                             let chapter = g.Key.Chapter
+                             let verse = g.Key.Verse
+                             let book = g.Key.Book
+                             let no = g.Key.No
                              select new WordTranslation()
                              {
-                                 Pol = polWord,
+                                 Pol = word,
+                                 Chapter = chapter,
+                                 Verse = verse,
+                                 Book = book,
+                                 No = no,
                                  Strong = byzWords[0].Strong > 0
-                                 ? string.Join("_", byzWords.Select(x => x.Strong.ToString())) : null,
-                                 Byz = string.Join(", ", byzWords.Select(x => x.Word.ToString()))
+                                 ? string.Join("_", byzWords.Select(x => x.Strong.ToString()).Distinct()) : null,
+                                 Byz = string.Join(", ", byzWords.Select(x => x.Word.ToString()).Distinct())
                              };
-            return result;
+            return result
+                .OrderBy(x => x.Book)
+                .ThenBy(x => x.Chapter)
+                .ThenBy(x => x.Verse)
+                .ThenBy(x => x.No)
+                .ToList();
+        }
+
+        private void AddLinksForNonTranslatedWords(List<Pol> pol, List<Byz> byz, List<Link> link)
+        {
+            byz.Add(new Byz(0, "", 0));
+
+            foreach (var word in pol.Where(w => !string.IsNullOrWhiteSpace(w.Word)
+                && w.Word.First() == '(' && w.Word.Last() == ')'))
+            {
+                link.Add(new Link(word.Uid, 0));
+            }
         }
     }
 }

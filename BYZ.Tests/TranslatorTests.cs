@@ -7,11 +7,11 @@ using System.Linq;
 
 namespace BYZ.Tests
 {
-    public class JoinPolAndByz
+    public class TranslatorTests
     {
         private readonly Translator _converter;
 
-        public JoinPolAndByz()
+        public TranslatorTests()
         {
             _converter = new Translator();
         }
@@ -158,7 +158,7 @@ namespace BYZ.Tests
                 new Link(3, 2)
             };
 
-            _converter.AddLinksForNonTranslatedWords(pol, byz, link);
+
             var words = _converter.Translate(pol, byz, link).ToList();
 
             AssertContainsWord(words, "Zwój księgi", "976");

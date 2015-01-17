@@ -42,9 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="JoinPolAndByz.cs" />
+    <Compile Include="TranslatorTests.cs" />
+    <Compile Include="GeneratorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WordPart.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

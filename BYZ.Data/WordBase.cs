@@ -13,5 +13,14 @@
         public int No { get; set; }
 
         public string Word { get; set; }
+
+        public override bool Equals(object obj)
+        {
+            var wordBase = obj as WordBase;
+            return wordBase.Book == this.Book
+                   && wordBase.Chapter == this.Chapter
+                   && wordBase.Verse == this.Verse
+                   && wordBase.Word == this.Word;
+        }
     }
 }
