@@ -1,0 +1,122 @@
+\documentclass[paper=a5,pagesize=pdftex]{scrbook}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{polski}
+\usepackage[pagestyles]{titlesec}
+\usepackage{lettrine}
+\usepackage{setspace}
+\usepackage[polish]{babel}
+% TODO
+\usepackage{ebgaramond}
+\usepackage{lipsum}
+\usepackage{fixltx2e}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{fancyhdr}
+  \pagestyle{fancy}
+  \fancyhf{}
+  \fancyhead[RO,LE]{\rightmark}
+  \renewcommand{\headrulewidth}{.5pt}
+
+\selectlanguage{polish}
+
+\setlength{\headwidth}{\textwidth}
+\setlength{\headheight}{15pt}
+\setlength{\headsep}{0pt}
+\setlength{\columnseprule}{0pt}
+\clubpenalty10000
+\widowpenalty10000
+
+\makeatletter
+\newcommand\versenumcolor{black}
+\newcommand\chapnumcolor{black}
+\renewcommand\paragraph{%
+  \@startsection{paragraph}{4}{\z@}%
+                {.25ex \@plus.25ex \@minus.1ex}%
+                {-.5em}%
+                {\normalfont\normalsize\bfseries\color{\versenumcolor}}}%
+\newlength{\biblechapskip}
+  \setlength{\biblechapskip}{1em plus .33em minus .2em}
+\newcounter{biblechapter}
+\newcounter{bibleverse}[biblechapter]
+\renewcommand\chaptername{Book}
+\let\ltx@chapter=\chapter
+\let\ltx@paragraph=\paragraph
+\newcommand{\book}[1]{%
+  \gdef\currbook{#1}
+  \ltx@chapter{#1}}
+\newcount\biblechap@svdopt
+\newenvironment{biblechapter}[1][\thebiblechapter]
+  {\biblechap@svdopt=#1
+  \ifnum\c@biblechapter=\biblechap@svdopt\else
+    \advance\biblechap@svdopt by -1\fi
+  \setcounter{biblechapter}{\the\biblechap@svdopt}
+  \refstepcounter{biblechapter}
+  \lettrine{\color{\chapnumcolor}\lower-6pt\hbox{\thebiblechapter}}{}\ignorespaces}
+  {\vspace{\biblechapskip}}
+\renewcommand{\verse}[1][\thebibleverse]{%
+  \refstepcounter{bibleverse}
+  \markright{{\scshape\currbook} \thebiblechapter:\thebibleverse}
+  \ifnum\c@bibleverse=1\else
+    \ltx@paragraph*{#1}\fi}%
+\makeatother
+
+% fonts
+\font\strong=phvr at 6pt
+\font\verse=pbkl at 8pt
+
+% macros
+
+% word
+\newcommand\wrd[2]{%
+  \leavevmode
+  \vbox{\offinterlineskip
+    \halign{%
+      \hfil##\hfil\cr
+      {\strong\vphantom{p}#1}\cr
+      \noalign{\vskip\lineskip}%
+      \vphantom{A}#2\cr
+    }%
+  }%
+}
+
+% verse number
+\def\vrs#1{\textsuperscript{\textbf{#1}}}
+ 
+\begin{document}
+\doublespacing
+\renewcommand{\chaptertitle}{Mateusza}
+%
+\enlargethispage{3\baselineskip}% optional
+
+\mainmatter
+\book{Mateusza}
+\begin{biblechapter}
+\verse \wrd{976}{Zwój księgi}
+\verse \wrd{}{(o)}
+\wrd{1078}{narodzinach}
+\wrd{2424}{Jezusa}
+\wrd{5547}{syna}
+\wrd{5547}{Dawida,}
+\wrd{5547}{syna}
+\wrd{11}{Abrahama.}
+\wrd{11}{Abraham}
+\wrd{1080}{zrodził}
+\wrd{2464}{Izaaka,}
+\wrd{1161}{a}
+\wrd{2464}{Izaak}
+\wrd{1080}{zrodził}
+\wrd{2384}{Jakuba,}
+\wrd{1161}{a}
+\wrd{2384}{Jakub}
+\wrd{1080}{zrodził}
+\wrd{2455}{Judę}
+\wrd{2532}{i}
+\wrd{80}{braci}
+\wrd{846}{jego}
+\vrs{2}
+\vrs{3}
+\end{biblechapter}
+\section{}
+
+ 
+\end{document} 
