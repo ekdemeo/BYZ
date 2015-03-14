@@ -1,10 +1,6 @@
-﻿
-
+﻿using BYZ.Core.Model;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.InteropServices;
-using BYZ.Core.Model;
-
 
 namespace BYZ.Core
 {
@@ -37,11 +33,38 @@ namespace BYZ.Core
                 {
                     Strong = word.Strong,
                     Pol = word.Pol,
+                    WordGroup = word.WordGroup
                 });
             }
 
+            foreach (var verse in book.Chapters.SelectMany(x => x.Verses))
+            {
+                ComputeUnderlines(verse);
+            }
 
             return book;
+        }
+
+        private void ComputeUnderlines(Verse verse)
+        {
+            var result = from w in verse.Words
+                         where w.WordGroup > 0
+                         group w by w.WordGroup
+                             into g
+                             orderby g.Key ascending
+                             select g;
+
+            var currentUnderline = 0;
+
+            foreach (var wordGroup in result)
+            {
+                foreach (var word in wordGroup.ToList())
+                {
+                    word.Underline = currentUnderline;
+                }
+
+                currentUnderline = (currentUnderline + 1) % 2;
+            }
         }
     }
 }

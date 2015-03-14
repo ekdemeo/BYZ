@@ -1,0 +1,1321 @@
+<?xml version="1.0"?>
+<Bible xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Books>
+        <Book>
+            <Chapters>
+                <Chapter N="1">
+                    <Verses>
+                        <Verse N="1">
+                            <Words>
+                                <Word T="Zwój księgi" S="976" G="0" />
+                                <Word T="(o)" G="0" />
+                                <Word T="narodzinach" S="1078" G="0" />
+                                <Word T="Jezusa" S="2424" G="0" />
+                                <Word T="Chrystusa" S="5547" G="0" />
+                                <Word T="syna" S="5207" G="0" />
+                                <Word T="Dawida" S="1138" G="0" />
+                                <Word T="syna" S="5207" G="0" />
+                                <Word T="Abrahama" S="11" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="2">
+                            <Words>
+                                <Word T="Abraham" S="11" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Izaaka" S="2464" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Izaak" S="2464" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Jakuba" S="2384" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Jakub" S="2384" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Judę" S="2455" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="braci" S="80" G="0" />
+                                <Word T="jego" S="846" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="3">
+                            <Words>
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Juda" S="2455" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Faresa" S="5329" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="Zarę" S="2196" G="0" />
+                                <Word T="z" S="1537" G="0" />
+                                <Word T="Tamary" S="2283" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Fares" S="5329" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Esroma" S="2074" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Esrom" S="2074" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Arama" S="689" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="4">
+                            <Words>
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Aram" S="689" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Aminadaba" S="284" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Aminadab" S="284" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Naassona" S="3476" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Naasson" S="3476" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Salmona" S="4533" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="5">
+                            <Words>
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Salmon" S="4533" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Booza" S="1003" G="0" />
+                                <Word T="z" S="1537" G="0" />
+                                <Word T="Rahab" S="4477" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Booz" S="1003" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Jobeda" S="5601" G="0" />
+                                <Word T="z" S="1537" G="0" />
+                                <Word T="Rut" S="4503" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Jobed" S="5601" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Jesaja" S="2421" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="6">
+                            <Words>
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Jesaj" S="2421" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Dawida" S="1138" G="0" />
+                                <Word T="króla" S="935" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Dawid" S="1138" G="0" />
+                                <Word T="król" S="935" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Salomona" S="4672" G="0" />
+                                <Word T="z" S="1537" G="0" />
+                                <Word T="tej" S="3588" G="0" />
+                                <Word T="(która należała do)" G="0" />
+                                <Word T="Uriasza" S="3774" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="7">
+                            <Words>
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Salomon" S="4672" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Roboama" S="4497" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Roboam" S="4497" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Abiasa" S="7" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Abias" S="7" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Asafa" S="760" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="8">
+                            <Words>
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Asaf" S="760" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Jozafata" S="2498" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Jozafat" S="2498" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Jorama" S="2496" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Joram" S="2496" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Ozjasza" S="3604" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="9">
+                            <Words>
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Ozjasz" S="3604" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Joatama" S="2488" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Joatam" S="2488" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Achaza" S="881" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Achaz" S="881" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Ezechiasza" S="1478" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="10">
+                            <Words>
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Ezechiasz" S="1478" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Manassesa" S="3128" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Manasses" S="3128" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Amona" S="300" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Amon" S="300" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Jozjasza" S="2502" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="11">
+                            <Words>
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Jozjasz" S="2502" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Jechoniasza" S="2423" G="0" />
+                                <Word T="oraz" S="2532" G="0" />
+                                <Word T="braci" S="80" G="0" />
+                                <Word T="jego" S="846" G="0" />
+                                <Word T="w czasie" S="1909" G="0" />
+                                <Word T="przesiedlenia" S="3350" G="0" />
+                                <Word T="(do)" G="0" />
+                                <Word T="Babilonu" S="897" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="12">
+                            <Words>
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="po" S="3326" G="0" />
+                                <Word T="przesiedleniu" S="3350" G="0" />
+                                <Word T="(do)" G="0" />
+                                <Word T="Babilonu" S="897" G="0" />
+                                <Word T="Jechoniasz" S="2423" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Salatiela" S="4528" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Salatiel" S="4528" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Zorobabela" S="2216" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="13">
+                            <Words>
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Zorobabel" S="2216" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Abiuda" S="10" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Abiud" S="10" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Eliakima" S="1662" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Eliakim" S="1662" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Azora" S="107" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="14">
+                            <Words>
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Azor" S="107" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Sadoka" S="4524" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Sadok" S="4524" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Achima" S="885" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Achim" S="885" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Eliuda" S="1664" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="15">
+                            <Words>
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Eliud" S="1664" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Eleazara" S="1648" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Eleazar" S="1648" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Mattana" S="3157" G="0" />
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Mattan" S="3157" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Jakuba" S="2384" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="16">
+                            <Words>
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Jakub" S="2384" G="0" />
+                                <Word T="zrodził" S="1080" G="0" />
+                                <Word T="Józefa" S="2501" G="0" />
+                                <Word T="męża" S="435" G="0" />
+                                <Word T="Marii" S="3137" G="0" />
+                                <Word T="z" S="1537" G="0" />
+                                <Word T="której" S="3739" G="0" />
+                                <Word T="został zrodzony" S="1080" G="0" />
+                                <Word T="Jezus" S="2424" G="0" />
+                                <Word T="nazywany" S="3004" G="0" />
+                                <Word T="Chrystusem" S="5547" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="17">
+                            <Words>
+                                <Word T="Wszystkich" S="3956" G="0" />
+                                <Word T="więc" S="3767" G="0" />
+                                <Word T="pokoleń" S="1074" G="0" />
+                                <Word T="od" S="575" G="0" />
+                                <Word T="Abrahama" S="11" G="0" />
+                                <Word T="do" S="2193" G="0" />
+                                <Word T="Dawida" S="1138" G="0" />
+                                <Word T="pokoleń" S="1074" G="0" />
+                                <Word T="czternaście" S="1180" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="od" S="575" G="0" />
+                                <Word T="Dawida" S="1138" G="0" />
+                                <Word T="do" S="2193" G="0" />
+                                <Word T="przesiedlenia" S="3350" G="0" />
+                                <Word T="(do)" G="0" />
+                                <Word T="Babilonu" S="897" G="0" />
+                                <Word T="pokoleń" S="1074" G="0" />
+                                <Word T="czternaście" S="1180" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="od" S="575" G="0" />
+                                <Word T="przesiedlenia" S="3350" G="0" />
+                                <Word T="(do)" G="0" />
+                                <Word T="Babilonu" S="897" G="0" />
+                                <Word T="do" S="2193" G="0" />
+                                <Word T="Chrystusa" S="5547" G="0" />
+                                <Word T="pokoleń" S="1074" G="0" />
+                                <Word T="czternaście" S="1180" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="18">
+                            <Words>
+                                <Word T="A" S="1161" G="0" />
+                                <Word T="narodzenie" S="1083" G="0" />
+                                <Word T="Jezusa" S="2424" G="0" />
+                                <Word T="Chrystusa" S="5547" G="0" />
+                                <Word T="było" S="2258" G="0" />
+                                <Word T="takie" S="3779" G="0" />
+                                <Word T="ponieważ" S="1063" G="0" />
+                                <Word T="matka" S="3384" G="0" />
+                                <Word T="jego" S="846" G="0" />
+                                <Word T="Maria" S="3137" G="0" />
+                                <Word T="będąc zaślubiona" S="3423" G="0" />
+                                <Word T="Józefowi" S="2501" G="0" />
+                                <Word T="wcześniej, zanim" S="4250" G="1" />
+                                <Word T="[-]" S="2228" G="0" />
+                                <Word T="się" S="4905" G="0" />
+                                <Word T="oni" S="846" G="0" />
+                                <Word T="zeszli" S="4905" G="0" />
+                                <Word T="znalazła się" S="2147" G="1" />
+                                <Word T="tą, która ma" S="2192" G="0" />
+                                <Word T="(dziecko)" G="0" />
+                                <Word T="w" S="1722" G="0" />
+                                <Word T="łonie" S="1064" G="0" />
+                                <Word T="za sprawą" S="1537" G="1" />
+                                <Word T="Ducha" S="4151" G="0" />
+                                <Word T="Świętego" S="40" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="19">
+                            <Words>
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="Józef" S="2501" G="0" />
+                                <Word T="jej" S="846" G="0" />
+                                <Word T="mąż" S="435" G="0" />
+                                <Word T="będąc" S="5607" G="0" />
+                                <Word T="sprawiedliwym" S="1342" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="nie" S="3361" G="0" />
+                                <Word T="chcąc" S="2309" G="0" />
+                                <Word T="jej" S="846" G="0" />
+                                <Word T="wystawić na pośmiewisko" S="3856" G="0" />
+                                <Word T="chciał" S="1014" G="0" />
+                                <Word T="potajemnie" S="2977" G="0" />
+                                <Word T="ją" S="846" G="0" />
+                                <Word T="uwolnić" S="630" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="20">
+                            <Words>
+                                <Word T="a" S="1161" G="0" />
+                                <Word T="(gdy)" G="0" />
+                                <Word T="on" S="846" G="0" />
+                                <Word T="to" S="5023" G="0" />
+                                <Word T="obmyślił" S="1760" G="0" />
+                                <Word T="oto" S="2400" G="0" />
+                                <Word T="anioł" S="32" G="0" />
+                                <Word T="Pana" S="2962" G="0" />
+                                <Word T="ukazał się" S="5316" G="0" />
+                                <Word T="mu" S="846" G="0" />
+                                <Word T="podczas" S="2596" G="0" />
+                                <Word T="snu" S="3677" G="0" />
+                                <Word T="mówiąc" S="3004" G="0" />
+                                <Word T="Józefie" S="2501" G="0" />
+                                <Word T="synu" S="5207" G="0" />
+                                <Word T="Dawida" S="1138" G="0" />
+                                <Word T="nie" S="3361" G="0" />
+                                <Word T="bój się" S="5399" G="1" />
+                                <Word T="wziąć" S="3880" G="0" />
+                                <Word T="(do siebie)" G="0" />
+                                <Word T="Marii" S="3137" G="0" />
+                                <Word T="twojej" S="4675" G="0" />
+                                <Word T="żony" S="1135" G="0" />
+                                <Word T="ponieważ" S="1063" G="0" />
+                                <Word T="to, co" S="3588" G="0" />
+                                <Word T="w" S="1722" G="0" />
+                                <Word T="niej" S="846" G="0" />
+                                <Word T="zrodzone" S="1080" G="0" />
+                                <Word T="jest" S="2076" G="0" />
+                                <Word T="za sprawą" S="1537" G="1" />
+                                <Word T="Ducha" S="4151" G="0" />
+                                <Word T="Świętego" S="40" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="21">
+                            <Words>
+                                <Word T="i" S="1161" G="0" />
+                                <Word T="urodzi" S="5088" G="0" />
+                                <Word T="syna" S="5207" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="nazwiesz" S="2564" G="0" />
+                                <Word T="go" S="846" G="0" />
+                                <Word T="imieniem" S="3686" G="0" />
+                                <Word T="Jezus" S="2424" G="0" />
+                                <Word T="ponieważ" S="1063" G="0" />
+                                <Word T="On" S="846" G="0" />
+                                <Word T="wybawi" S="4982" G="0" />
+                                <Word T="lud" S="2992" G="0" />
+                                <Word T="swój" S="846" G="0" />
+                                <Word T="od" S="575" G="0" />
+                                <Word T="ich" S="846" G="0" />
+                                <Word T="grzechów" S="266" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="22">
+                            <Words>
+                                <Word T="A" S="1161" G="0" />
+                                <Word T="to" S="5124" G="0" />
+                                <Word T="wszystko" S="3650" G="0" />
+                                <Word T="stało się" S="1096" G="0" />
+                                <Word T="aby" S="2443" G="0" />
+                                <Word T="wypełniło się" S="4137" G="1" />
+                                <Word T="to, co" S="3588" G="0" />
+                                <Word T="zostało powiedziane" S="4483" G="1" />
+                                <Word T="poprzez" S="5259" G="0" />
+                                <Word T="Pana" S="2962" G="0" />
+                                <Word T="za pośrednictwem" S="1223" G="0" />
+                                <Word T="proroka" S="4396" G="0" />
+                                <Word T="mówiącego" S="3004" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="23">
+                            <Words>
+                                <Word T="Oto" S="2400" G="0" />
+                                <Word T="panna" S="3933" G="0" />
+                                <Word T="będzie mieć" S="2192" G="0" />
+                                <Word T="w" S="1722" G="0" />
+                                <Word T="łonie" S="1064" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="urodzi" S="5088" G="0" />
+                                <Word T="syna" S="5207" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="nazwą" S="2564" G="0" />
+                                <Word T="go" S="846" G="0" />
+                                <Word T="imieniem" S="3686" G="0" />
+                                <Word T="Emmanuel" S="1694" G="0" />
+                                <Word T="co" S="3739" G="0" />
+                                <Word T="jest" S="2076" G="0" />
+                                <Word T="tłumaczone" S="3177" G="0" />
+                                <Word T="razem z" S="3326" G="1" />
+                                <Word T="nami" S="2257" G="0" />
+                                <Word T="Bóg" S="2316" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="24">
+                            <Words>
+                                <Word T="A" S="1161" G="0" />
+                                <Word T="Józef" S="2501" G="0" />
+                                <Word T="obudziwszy się" S="1326" G="0" />
+                                <Word T="ze" S="575" G="0" />
+                                <Word T="snu" S="5258" G="0" />
+                                <Word T="uczynił" S="4160" G="0" />
+                                <Word T="jak" S="5613" G="0" />
+                                <Word T="nakazał" S="4367" G="0" />
+                                <Word T="mu" S="846" G="0" />
+                                <Word T="anioł" S="32" G="0" />
+                                <Word T="Pana" S="2962" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="przyjął" S="3880" G="0" />
+                                <Word T="swoją" S="846" G="0" />
+                                <Word T="żonę" S="1135" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="25">
+                            <Words>
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="nie" S="3756" G="0" />
+                                <Word T="poznawał" S="1097" G="0" />
+                                <Word T="jej" S="846" G="0" />
+                                <Word T="aż" S="2193" G="0" />
+                                <Word T="[-]" S="3739" G="0" />
+                                <Word T="urodziła" S="5088" G="0" />
+                                <Word T="syna" S="5207" G="0" />
+                                <Word T="swego" S="846" G="0" />
+                                <Word T="pierworodnego" S="4416" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="nazwał" S="2564" G="0" />
+                                <Word T="go" S="846" G="0" />
+                                <Word T="imieniem" S="3686" G="0" />
+                                <Word T="Jezus" S="2424" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="1">
+                            <Words>
+                                <Word T="Początek" S="746" G="0" />
+                                <Word T="dobrej nowiny" S="2098" G="0" />
+                                <Word T="Jezusa" S="2424" G="0" />
+                                <Word T="Chrystusa" S="5547" G="0" />
+                                <Word T="Syna" S="5207" G="0" />
+                                <Word T="Bożego" S="2316" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="2">
+                            <Words>
+                                <Word T="Jak" S="5613" G="0" />
+                                <Word T="jest napisane" S="1125" G="0" />
+                                <Word T="u" S="1722" G="0" />
+                                <Word T="proroka" S="4396" G="0" />
+                                <Word T="Oto" S="2400" G="0" />
+                                <Word T="ja" S="1473" G="0" />
+                                <Word T="posyłam" S="649" G="0" />
+                                <Word T="mojego" S="3450" G="0" />
+                                <Word T="anioła" S="32" G="0" />
+                                <Word T="przed" S="4253" G="0" />
+                                <Word T="obliczem" S="4383" G="0" />
+                                <Word T="twoim" S="4675" G="0" />
+                                <Word T="który" S="3739" G="0" />
+                                <Word T="przygotuje" S="2680" G="0" />
+                                <Word T="ci" S="4675" G="0" />
+                                <Word T="drogę" S="3598" G="0" />
+                                <Word T="przed" S="1715" G="0" />
+                                <Word T="tobą" S="4675" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="3">
+                            <Words>
+                                <Word T="głos" S="5456" G="0" />
+                                <Word T="wołającego" S="994" G="0" />
+                                <Word T="na" S="1722" G="0" />
+                                <Word T="pustkowiu" S="2048" G="0" />
+                                <Word T="Przygotujcie" S="2090" G="0" />
+                                <Word T="drogę" S="3598" G="0" />
+                                <Word T="Pana" S="2962" G="0" />
+                                <Word T="prostymi" S="2117" G="0" />
+                                <Word T="czyńcie" S="4160" G="0" />
+                                <Word T="ścieżki" S="5147" G="0" />
+                                <Word T="jego" S="846" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="4">
+                            <Words>
+                                <Word T="Pojawił się" S="1096" G="0" />
+                                <Word T="Jan" S="2491" G="0" />
+                                <Word T="Chrzciciel" S="907" G="0" />
+                                <Word T="na" S="1722" G="0" />
+                                <Word T="pustkowiu" S="2048" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="głosił" S="2784" G="0" />
+                                <Word T="zanurzenie" S="908" G="0" />
+                                <Word T="(ku)" G="0" />
+                                <Word T="zmianie myślenia" S="3341" G="1" />
+                                <Word T="na" S="1519" G="0" />
+                                <Word T="uwolnienie od" S="859" G="0" />
+                                <Word T="grzechów" S="266" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="5">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="wychodziła" S="1607" G="0" />
+                                <Word T="do" S="4314" G="0" />
+                                <Word T="niego" S="846" G="0" />
+                                <Word T="cała" S="3956" G="0" />
+                                <Word T="judejska" S="2449" G="0" />
+                                <Word T="kraina" S="5561" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="mieszkańcy Jerozolimy" S="2415" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="wszyscy" S="3956" G="0" />
+                                <Word T="byli zanurzani" S="907" G="1" />
+                                <Word T="w" S="1722" G="0" />
+                                <Word T="rzece" S="4215" G="0" />
+                                <Word T="Jordan" S="2446" G="0" />
+                                <Word T="przez" S="5259" G="0" />
+                                <Word T="niego" S="846" G="0" />
+                                <Word T="wyznając" S="1843" G="0" />
+                                <Word T="swoje" S="846" G="0" />
+                                <Word T="grzechy" S="266" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="6">
+                            <Words>
+                                <Word T="A" S="1161" G="0" />
+                                <Word T="Jan" S="2491" G="0" />
+                                <Word T="był" S="2258" G="0" />
+                                <Word T="odziany" S="1746" G="0" />
+                                <Word T="sierścią" S="2359" G="0" />
+                                <Word T="wielbłąda" S="2574" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="pasem" S="2223" G="0" />
+                                <Word T="skórzanym" S="1193" G="0" />
+                                <Word T="wokół" S="4012" G="0" />
+                                <Word T="swoich" S="846" G="0" />
+                                <Word T="bioder" S="3751" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="jadał" S="2068" G="0" />
+                                <Word T="szarańcze" S="200" G="0" />
+                                <Word T="oraz" S="2532" G="0" />
+                                <Word T="dziki" S="66" G="0" />
+                                <Word T="miód" S="3192" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="7">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="głosił" S="2784" G="0" />
+                                <Word T="mówiąc" S="3004" G="0" />
+                                <Word T="Idzie" S="2064" G="0" />
+                                <Word T="za" S="3694" G="0" />
+                                <Word T="mną" S="3450" G="0" />
+                                <Word T="potężniejszy" S="2478" G="0" />
+                                <Word T="(ode)" G="0" />
+                                <Word T="mnie" S="3450" G="0" />
+                                <Word T="któremu" S="3739" G="0" />
+                                <Word T="nie" S="3756" G="0" />
+                                <Word T="jestem" S="1510" G="0" />
+                                <Word T="godny" S="2425" G="0" />
+                                <Word T="schyliwszy się" S="2955" G="0" />
+                                <Word T="rozwiązać" S="3089" G="0" />
+                                <Word T="rzemienia" S="2438" G="0" />
+                                <Word T="jego" S="846" G="0" />
+                                <Word T="sandałów" S="5266" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="8">
+                            <Words>
+                                <Word T="Ja" S="1473" G="0" />
+                                <Word T="co prawda" S="3303" G="0" />
+                                <Word T="zanurzyłem" S="907" G="0" />
+                                <Word T="was" S="5209" G="0" />
+                                <Word T="w" S="1722" G="0" />
+                                <Word T="wodzie" S="5204" G="0" />
+                                <Word T="lecz" S="1161" G="0" />
+                                <Word T="on" S="846" G="0" />
+                                <Word T="zanurzy" S="907" G="0" />
+                                <Word T="was" S="5209" G="0" />
+                                <Word T="w" S="1722" G="0" />
+                                <Word T="Duchu" S="4151" G="0" />
+                                <Word T="Świętym" S="40" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="9">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="stało się" S="1096" G="0" />
+                                <Word T="w" S="1722" G="0" />
+                                <Word T="tamtych" S="1565" G="0" />
+                                <Word T="dniach" S="2250" G="0" />
+                                <Word T="przyszedł" S="2064" G="0" />
+                                <Word T="Jezus" S="2424" G="0" />
+                                <Word T="z" S="575" G="0" />
+                                <Word T="Nazaretu" S="3478" G="0" />
+                                <Word T="(w)" G="0" />
+                                <Word T="Galilei" S="1056" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="został zanurzony" S="907" G="1" />
+                                <Word T="przez" S="5259" G="0" />
+                                <Word T="Jana" S="2491" G="0" />
+                                <Word T="w" S="1519" G="0" />
+                                <Word T="Jordanie" S="2446" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="10">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="natychmiast" S="2112" G="0" />
+                                <Word T="wychodząc" S="305" G="0" />
+                                <Word T="z" S="575" G="0" />
+                                <Word T="wody" S="5204" G="0" />
+                                <Word T="zobaczył" S="1492" G="0" />
+                                <Word T="rozdarte" S="4977" G="0" />
+                                <Word T="niebiosa" S="3772" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="ducha" S="4151" G="0" />
+                                <Word T="jakby" S="5616" G="0" />
+                                <Word T="gołębia" S="4058" G="0" />
+                                <Word T="zstępującego" S="2597" G="0" />
+                                <Word T="na" S="1909" G="0" />
+                                <Word T="niego" S="846" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="11">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="pojawił się" S="1096" G="0" />
+                                <Word T="głos" S="5456" G="0" />
+                                <Word T="z" S="1537" G="0" />
+                                <Word T="niebios" S="3772" G="0" />
+                                <Word T="Ty" S="4771" G="0" />
+                                <Word T="jesteś" S="1488" G="0" />
+                                <Word T="synem" S="5207" G="0" />
+                                <Word T="moim" S="3450" G="0" />
+                                <Word T="umiłowanym" S="27" G="0" />
+                                <Word T="w" S="1722" G="0" />
+                                <Word T="którym" S="3739" G="0" />
+                                <Word T="sobie upodobałem" S="2106" G="1" />
+                            </Words>
+                        </Verse>
+                        <Verse N="12">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="zaraz" S="2117" G="0" />
+                                <Word T="duch" S="4151" G="0" />
+                                <Word T="go" S="846" G="0" />
+                                <Word T="wypędził" S="1544" G="0" />
+                                <Word T="na" S="1519" G="0" />
+                                <Word T="pustkowie" S="2048" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="13">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="był" S="2258" G="0" />
+                                <Word T="tam" S="1563" G="0" />
+                                <Word T="na" S="1722" G="0" />
+                                <Word T="pustkowiu" S="2048" G="0" />
+                                <Word T="czterdzieści" S="5062" G="0" />
+                                <Word T="dni" S="2250" G="0" />
+                                <Word T="doświadczany" S="3985" G="0" />
+                                <Word T="przez" S="5259" G="0" />
+                                <Word T="szatana" S="4567" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="przebywał" S="2258" G="0" />
+                                <Word T="ze" S="3326" G="0" />
+                                <Word T="zwierzętami" S="2342" G="0" />
+                                <Word T="a" S="2532" G="0" />
+                                <Word T="aniołowie" S="32" G="0" />
+                                <Word T="służyli" S="1247" G="0" />
+                                <Word T="mu" S="846" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="14">
+                            <Words>
+                                <Word T="Lecz" S="1161" G="0" />
+                                <Word T="po" S="3326" G="0" />
+                                <Word T="wydaniu" S="3860" G="0" />
+                                <Word T="Jana" S="2491" G="0" />
+                                <Word T="przyszedł" S="2064" G="0" />
+                                <Word T="Jezus" S="2424" G="0" />
+                                <Word T="do" S="1519" G="0" />
+                                <Word T="Galilei" S="1056" G="0" />
+                                <Word T="głosząc" S="2784" G="0" />
+                                <Word T="dobrą nowinę" S="2098" G="0" />
+                                <Word T="królestwa" S="932" G="0" />
+                                <Word T="Bożego" S="2316" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="15">
+                            <Words>
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="mówiąc" S="3004" G="0" />
+                                <Word T="[-]" S="3754" G="0" />
+                                <Word T="Wypełnił się" S="4137" G="0" />
+                                <Word T="czas" S="2540" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="przybliżyło się" S="1448" G="1" />
+                                <Word T="królestwo" S="932" G="0" />
+                                <Word T="Boże" S="2316" G="0" />
+                                <Word T="zmieniajcie myślenie" S="3340" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="wierzcie" S="4100" G="0" />
+                                <Word T="w" S="1722" G="0" />
+                                <Word T="dobrą nowinę" S="2098" G="1" />
+                            </Words>
+                        </Verse>
+                        <Verse N="16">
+                            <Words>
+                                <Word T="A" S="1161" G="0" />
+                                <Word T="przechodząc" S="4043" G="0" />
+                                <Word T="obok" S="3844" G="0" />
+                                <Word T="Morza" S="2281" G="0" />
+                                <Word T="Galilejskiego" S="1056" G="0" />
+                                <Word T="zobaczył" S="1492" G="0" />
+                                <Word T="Szymona" S="4613" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="Andrzeja" S="406" G="0" />
+                                <Word T="brata" S="80" G="0" />
+                                <Word T="[-]" S="846" G="0" />
+                                <Word T="Szymona" S="4613" G="0" />
+                                <Word T="zarzucających" S="906" G="0" />
+                                <Word T="niewód" S="293" G="0" />
+                                <Word T="w" S="1722" G="0" />
+                                <Word T="morze" S="2281" G="0" />
+                                <Word T="byli" S="2258" G="0" />
+                                <Word T="bowiem" S="1063" G="0" />
+                                <Word T="rybakami" S="231" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="17">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="powiedział" S="2036" G="0" />
+                                <Word T="im" S="846" G="0" />
+                                <Word T="Jezus" S="2424" G="0" />
+                                <Word T="Pójdźcie" S="1205" G="0" />
+                                <Word T="za" S="3694" G="0" />
+                                <Word T="mną" S="3450" G="0" />
+                                <Word T="a" S="2532" G="0" />
+                                <Word T="sprawię" S="4160" G="0" />
+                                <Word T="wam" S="5209" G="0" />
+                                <Word T="(że)" G="0" />
+                                <Word T="staniecie się" S="1096" G="0" />
+                                <Word T="rybakami" S="231" G="0" />
+                                <Word T="ludzi" S="444" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="18">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="natychmiast" S="2112" G="0" />
+                                <Word T="opuściwszy" S="863" G="0" />
+                                <Word T="sieci" S="1350" G="0" />
+                                <Word T="swoje" S="846" G="0" />
+                                <Word T="poszli za" S="190" G="0" />
+                                <Word T="nim" S="846" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="19">
+                            <Words>
+                                <Word T="A" S="2532" G="0" />
+                                <Word T="odchodząc" S="4260" G="0" />
+                                <Word T="stamtąd" S="1564" G="0" />
+                                <Word T="trochę" S="3641" G="0" />
+                                <Word T="dalej" S="4260" G="0" />
+                                <Word T="zobaczył" S="1492" G="0" />
+                                <Word T="Jakuba" S="2385" G="0" />
+                                <Word T="(syna)" G="0" />
+                                <Word T="owego" S="3588" G="0" />
+                                <Word T="Zebedeusza" S="2199" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="Jana" S="2491" G="0" />
+                                <Word T="brata" S="80" G="0" />
+                                <Word T="jego" S="846" G="0" />
+                                <Word T="a" S="2532" G="0" />
+                                <Word T="oni" S="846" G="0" />
+                                <Word T="w" S="1722" G="0" />
+                                <Word T="łodzi" S="4143" G="0" />
+                                <Word T="przygotowywali" S="2675" G="0" />
+                                <Word T="sieci" S="1350" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="20">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="natychmiast" S="2112" G="0" />
+                                <Word T="ich" S="846" G="0" />
+                                <Word T="powołał" S="2564" G="0" />
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="zostawiwszy" S="863" G="0" />
+                                <Word T="ojca" S="3962" G="0" />
+                                <Word T="swego" S="846" G="0" />
+                                <Word T="Zebedeusza" S="2199" G="0" />
+                                <Word T="w" S="1722" G="0" />
+                                <Word T="łodzi" S="4143" G="0" />
+                                <Word T="razem z" S="3326" G="0" />
+                                <Word T="najemnikami" S="3411" G="0" />
+                                <Word T="poszli" S="565" G="0" />
+                                <Word T="za" S="3694" G="0" />
+                                <Word T="nim" S="846" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="21">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="weszli" S="1531" G="0" />
+                                <Word T="do" S="1519" G="0" />
+                                <Word T="Kafarnaum" S="2584" G="0" />
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="natychmiast" S="2112" G="0" />
+                                <Word T="(w)" G="0" />
+                                <Word T="szabat" S="4521" G="0" />
+                                <Word T="wszedłszy" S="1525" G="0" />
+                                <Word T="do" S="1519" G="0" />
+                                <Word T="synagogi" S="4864" G="0" />
+                                <Word T="nauczał" S="1321" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="22">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="zdumiewali się" S="1605" G="0" />
+                                <Word T="z powodu" S="1909" G="1" />
+                                <Word T="nauki" S="1322" G="0" />
+                                <Word T="jego" S="846" G="0" />
+                                <Word T="[-]" S="2258" G="0" />
+                                <Word T="gdyż" S="1063" G="0" />
+                                <Word T="uczył" S="1321" G="0" />
+                                <Word T="ich" S="846" G="0" />
+                                <Word T="jak" S="5613" G="0" />
+                                <Word T="posiadający" S="2192" G="0" />
+                                <Word T="władzę" S="1849" G="0" />
+                                <Word T="a" S="2532" G="0" />
+                                <Word T="nie" S="3756" G="0" />
+                                <Word T="jak" S="5613" G="0" />
+                                <Word T="znawcy Pisma" S="1122" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="23">
+                            <Words>
+                                <Word T="A" S="2532" G="0" />
+                                <Word T="był" S="2258" G="0" />
+                                <Word T="w" S="1722" G="0" />
+                                <Word T="synagodze" S="4864" G="0" />
+                                <Word T="ich" S="846" G="0" />
+                                <Word T="człowiek" S="444" G="0" />
+                                <Word T="we" S="1722" G="0" />
+                                <Word T="(władzy)" G="0" />
+                                <Word T="ducha" S="4151" G="0" />
+                                <Word T="nieczystego" S="169" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="głośno zawołał" S="349" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="24">
+                            <Words>
+                                <Word T="mówiąc" S="3004" G="0" />
+                                <Word T="Ach" S="1436" G="0" />
+                                <Word T="Co" S="5101" G="0" />
+                                <Word T="my" S="2254" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="ty" S="4671" G="0" />
+                                <Word T="(mamy wspólnego)" G="0" />
+                                <Word T="Jezusie" S="2424" G="0" />
+                                <Word T="Nazareński" S="3479" G="0" />
+                                <Word T="Przyszedłeś" S="2064" G="0" />
+                                <Word T="nas" S="2248" G="0" />
+                                <Word T="zgubić" S="622" G="0" />
+                                <Word T="Znam" S="1492" G="0" />
+                                <Word T="cię" S="4571" G="0" />
+                                <Word T="kim" S="5101" G="0" />
+                                <Word T="jesteś" S="1488" G="0" />
+                                <Word T="świętym" S="40" G="0" />
+                                <Word T="Boga" S="2316" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="25">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="zgromił" S="2008" G="0" />
+                                <Word T="go" S="846" G="0" />
+                                <Word T="Jezus" S="2424" G="0" />
+                                <Word T="mówiąc" S="3004" G="0" />
+                                <Word T="milcz" S="5392" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="wyjdź" S="1831" G="0" />
+                                <Word T="z" S="1537" G="0" />
+                                <Word T="niego" S="846" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="26">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="szarpnął" S="4682" G="0" />
+                                <Word T="nim" S="846" G="0" />
+                                <Word T="duch" S="4151" G="0" />
+                                <Word T="nieczysty" S="169" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="zawoławszy" S="2896" G="0" />
+                                <Word T="wielkim" S="3173" G="0" />
+                                <Word T="głosem" S="5456" G="0" />
+                                <Word T="wyszedł" S="1831" G="0" />
+                                <Word T="z" S="1537" G="0" />
+                                <Word T="niego" S="846" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="27">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="zdziwili się" S="2284" G="0" />
+                                <Word T="wszyscy" S="3956" G="0" />
+                                <Word T="tak, że" S="5620" G="1" />
+                                <Word T="rozprawiali" S="4802" G="0" />
+                                <Word T="między" S="4314" G="0" />
+                                <Word T="sobą" S="1438" G="0" />
+                                <Word T="pytając" S="3004" G="0" />
+                                <Word T="Co" S="5101" G="0" />
+                                <Word T="jest" S="2076" G="0" />
+                                <Word T="to" S="5124" G="0" />
+                                <Word T="Jakaś" S="5101" G="0" />
+                                <Word T="nowa" S="2537" G="0" />
+                                <Word T="nauka" S="1322" G="0" />
+                                <Word T="taka" S="3778" G="0" />
+                                <Word T="że" S="3754" G="0" />
+                                <Word T="z" S="2596" G="0" />
+                                <Word T="mocą" S="1849" G="0" />
+                                <Word T="również" S="2532" G="0" />
+                                <Word T="duchom" S="4151" G="0" />
+                                <Word T="nieczystym" S="169" G="0" />
+                                <Word T="nakazuje" S="2004" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="są" S="5219" G="0" />
+                                <Word T="mu" S="846" G="0" />
+                                <Word T="posłuszne" S="5219" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="28">
+                            <Words>
+                                <Word T="I" S="1161" G="0" />
+                                <Word T="rozeszła się" S="1831" G="0" />
+                                <Word T="natychmiast" S="2117" G="0" />
+                                <Word T="wieść" S="189" G="0" />
+                                <Word T="(o)" G="0" />
+                                <Word T="nim" S="846" G="0" />
+                                <Word T="po" S="1519" G="0" />
+                                <Word T="całej" S="3650" G="0" />
+                                <Word T="sąsiedniej okolicy" S="4066" G="1" />
+                                <Word T="Galilei" S="1056" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="29">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="natychmiast" S="2112" G="0" />
+                                <Word T="wyszedłszy" S="1831" G="0" />
+                                <Word T="z" S="1537" G="0" />
+                                <Word T="synagogi" S="4864" G="0" />
+                                <Word T="przyszedł" S="2064" G="0" />
+                                <Word T="do" S="1519" G="0" />
+                                <Word T="domu" S="3614" G="0" />
+                                <Word T="Szymona" S="4613" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="Andrzeja" S="406" G="0" />
+                                <Word T="razem z" S="3326" G="0" />
+                                <Word T="Jakubem" S="2385" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="Janem" S="2491" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="30">
+                            <Words>
+                                <Word T="A" S="1161" G="0" />
+                                <Word T="teściowa" S="3994" G="0" />
+                                <Word T="Szymona" S="4613" G="0" />
+                                <Word T="leżała" S="2621" G="0" />
+                                <Word T="z gorączką" S="4445" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="natychmiast" S="2112" G="0" />
+                                <Word T="powiedzieli" S="3004" G="0" />
+                                <Word T="mu" S="846" G="0" />
+                                <Word T="o" S="4012" G="0" />
+                                <Word T="niej" S="846" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="31">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="podszedłszy" S="4334" G="0" />
+                                <Word T="podniósł" S="1453" G="0" />
+                                <Word T="ją" S="846" G="0" />
+                                <Word T="chwyciwszy" S="2902" G="0" />
+                                <Word T="ją" S="846" G="0" />
+                                <Word T="(za)" G="0" />
+                                <Word T="rękę" S="5495" G="0" />
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="natychmiast" S="2112" G="0" />
+                                <Word T="opuściła" S="863" G="0" />
+                                <Word T="ją" S="846" G="0" />
+                                <Word T="gorączka" S="4446" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="służyła" S="1247" G="0" />
+                                <Word T="im" S="846" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="32">
+                            <Words>
+                                <Word T="A" S="1161" G="0" />
+                                <Word T="(kiedy)" G="0" />
+                                <Word T="nastał" S="1096" G="0" />
+                                <Word T="wieczór" S="3798" G="0" />
+                                <Word T="gdy" S="3753" G="0" />
+                                <Word T="zaszło" S="1416" G="0" />
+                                <Word T="słońce" S="2246" G="0" />
+                                <Word T="przynosili" S="5342" G="0" />
+                                <Word T="do" S="4314" G="0" />
+                                <Word T="niego" S="846" G="0" />
+                                <Word T="wszystkich" S="3956" G="0" />
+                                <Word T="źle" S="2560" G="0" />
+                                <Word T="się mających" S="2192" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="opętanych" S="1139" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="33">
+                            <Words>
+                                <Word T="A" S="2532" G="0" />
+                                <Word T="całe" S="3650" G="0" />
+                                <Word T="miasto" S="4172" G="0" />
+                                <Word T="zgromadziło się" S="1996_2258" G="0" />
+                                <Word T="przy" S="4314" G="0" />
+                                <Word T="drzwiach" S="2374" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="34">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="uzdrowił" S="2323" G="0" />
+                                <Word T="wielu" S="4183" G="0" />
+                                <Word T="źle" S="2560" G="0" />
+                                <Word T="się mających" S="2192" G="0" />
+                                <Word T="(z powodu)" G="0" />
+                                <Word T="rozmaitych" S="4164" G="0" />
+                                <Word T="chorób" S="3554" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="demonów" S="1140" G="0" />
+                                <Word T="wiele" S="4183" G="0" />
+                                <Word T="wyrzucił" S="1544" G="0" />
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="nie" S="3756" G="0" />
+                                <Word T="pozwolił" S="863" G="0" />
+                                <Word T="mówić" S="2980" G="0" />
+                                <Word T="demonom" S="1140" G="0" />
+                                <Word T="ponieważ" S="3754" G="0" />
+                                <Word T="go" S="846" G="0" />
+                                <Word T="znały" S="1492" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="35">
+                            <Words>
+                                <Word T="A" S="2532" G="0" />
+                                <Word T="rano" S="4404" G="0" />
+                                <Word T="(gdy jeszcze było)" G="0" />
+                                <Word T="całkiem" S="3029" G="0" />
+                                <Word T="ciemno" S="1773" G="0" />
+                                <Word T="powstawszy" S="450" G="0" />
+                                <Word T="wyszedł" S="1831" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="odszedł" S="565" G="0" />
+                                <Word T="na" S="1519" G="0" />
+                                <Word T="bezludne" S="2048" G="0" />
+                                <Word T="miejsce" S="5117" G="0" />
+                                <Word T="i tam" S="2546" G="0" />
+                                <Word T="się modlił" S="4336" G="1" />
+                            </Words>
+                        </Verse>
+                        <Verse N="36">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="(zaczął)" G="0" />
+                                <Word T="szukać" S="2614" G="0" />
+                                <Word T="go" S="846" G="0" />
+                                <Word T="Szymon" S="4613" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="ci" S="3588" G="0" />
+                                <Word T="(którzy)" G="0" />
+                                <Word T="z" S="3326" G="0" />
+                                <Word T="nim" S="846" G="0" />
+                                <Word T="(byli)" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="37">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="znalazłszy" S="2147" G="0" />
+                                <Word T="go" S="846" G="0" />
+                                <Word T="powiedzieli" S="3004" G="0" />
+                                <Word T="mu" S="846" G="0" />
+                                <Word T="[-]" S="3754" G="0" />
+                                <Word T="Wszyscy" S="3956" G="0" />
+                                <Word T="cię" S="4571" G="0" />
+                                <Word T="szukają" S="2212" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="38">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="powiedział" S="3004" G="0" />
+                                <Word T="im" S="846" G="0" />
+                                <Word T="Idźmy" S="71" G="0" />
+                                <Word T="do" S="1519" G="0" />
+                                <Word T="przyległych" S="2192" G="0" />
+                                <Word T="miasteczek" S="2969" G="0" />
+                                <Word T="abym" S="2443" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="tam" S="1563" G="0" />
+                                <Word T="głosił" S="2784" G="0" />
+                                <Word T="Po" S="1519" G="0" />
+                                <Word T="to" S="5124" G="0" />
+                                <Word T="bowiem" S="1063" G="0" />
+                                <Word T="przyszedłem" S="1831" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="39">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="głosił" S="2784_2258" G="0" />
+                                <Word T="w" S="1722" G="0" />
+                                <Word T="ich" S="846" G="0" />
+                                <Word T="synagogach" S="4864" G="0" />
+                                <Word T="w" S="1519" G="0" />
+                                <Word T="całej" S="3650" G="0" />
+                                <Word T="Galilei" S="1056" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="wyrzucał" S="1544" G="0" />
+                                <Word T="demony" S="1140" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="40">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="przyszedł" S="2064" G="0" />
+                                <Word T="do" S="4314" G="0" />
+                                <Word T="niego" S="846" G="0" />
+                                <Word T="trędowaty" S="3015" G="0" />
+                                <Word T="prosząc" S="3870" G="0" />
+                                <Word T="go" S="846" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="upadł na kolana" S="1120" G="0" />
+                                <Word T="(przed)" G="0" />
+                                <Word T="nim" S="846" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="powiedział" S="3004" G="0" />
+                                <Word T="mu" S="846" G="0" />
+                                <Word T="[-]" S="3754" G="0" />
+                                <Word T="Jeżeli" S="1437" G="0" />
+                                <Word T="chcesz" S="2309" G="0" />
+                                <Word T="możesz" S="1410" G="0" />
+                                <Word T="mnie" S="3165" G="0" />
+                                <Word T="oczyścić" S="2511" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="41">
+                            <Words>
+                                <Word T="A" S="1161" G="0" />
+                                <Word T="Jezus" S="2424" G="0" />
+                                <Word T="ulitowawszy się" S="4697" G="0" />
+                                <Word T="wyciągnął" S="1614" G="0" />
+                                <Word T="rękę" S="5495" G="0" />
+                                <Word T="dotknął" S="680" G="0" />
+                                <Word T="go" S="846" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="powiedział" S="3004" G="0" />
+                                <Word T="mu" S="846" G="0" />
+                                <Word T="Chcę" S="2309" G="0" />
+                                <Word T="bądź oczyszczony" S="2511" G="1" />
+                            </Words>
+                        </Verse>
+                        <Verse N="42">
+                            <Words>
+                                <Word T="A" S="2532" G="0" />
+                                <Word T="(gdy)" G="0" />
+                                <Word T="on" S="846" G="0" />
+                                <Word T="(to)" G="0" />
+                                <Word T="rzekł" S="2036" G="0" />
+                                <Word T="natychmiast" S="2112" G="0" />
+                                <Word T="odszedł" S="565" G="0" />
+                                <Word T="od" S="575" G="0" />
+                                <Word T="niego" S="846" G="0" />
+                                <Word T="trąd" S="3014" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="został oczyszczony" S="2511" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="43">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="ostro upomniawszy" S="1690" G="0" />
+                                <Word T="go" S="846" G="0" />
+                                <Word T="natychmiast" S="2112" G="0" />
+                                <Word T="go" S="846" G="0" />
+                                <Word T="odprawił" S="1544" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="44">
+                            <Words>
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="powiedział" S="3004" G="0" />
+                                <Word T="mu" S="846" G="0" />
+                                <Word T="Uważaj" S="3708" G="0" />
+                                <Word T="(abyś)" G="0" />
+                                <Word T="nikomu" S="3367" G="0" />
+                                <Word T="niczego" S="3367" G="0" />
+                                <Word T="(nie)" G="0" />
+                                <Word T="powiedział" S="2036" G="0" />
+                                <Word T="ale" S="235" G="0" />
+                                <Word T="odejdź" S="5217" G="0" />
+                                <Word T="pokaż" S="1166" G="0" />
+                                <Word T="się" S="4572" G="0" />
+                                <Word T="kapłanowi" S="2409" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="przynieś" S="4374" G="0" />
+                                <Word T="za" S="4012" G="0" />
+                                <Word T="oczyszczenie" S="2512" G="0" />
+                                <Word T="twoje" S="4675" G="0" />
+                                <Word T="to, co" S="3739" G="0" />
+                                <Word T="nakazał" S="4367" G="0" />
+                                <Word T="Mojżesz" S="3475" G="0" />
+                                <Word T="na" S="1519" G="0" />
+                                <Word T="świadectwo" S="3142" G="0" />
+                                <Word T="im" S="846" G="0" />
+                            </Words>
+                        </Verse>
+                        <Verse N="45">
+                            <Words>
+                                <Word T="A" S="1161" G="0" />
+                                <Word T="on" S="3588" G="0" />
+                                <Word T="wyszedłszy" S="1831" G="0" />
+                                <Word T="zaczął" S="756" G="0" />
+                                <Word T="wiele" S="4183" G="0" />
+                                <Word T="rozgłaszać" S="2784" G="0" />
+                                <Word T="i" S="2532" G="0" />
+                                <Word T="rozpowszechniać" S="1310" G="0" />
+                                <Word T="słowo" S="3056" G="0" />
+                                <Word T="dlatego" S="5620" G="0" />
+                                <Word T="on" S="846" G="0" />
+                                <Word T="już nie" S="3371" G="0" />
+                                <Word T="mógł" S="1410" G="0" />
+                                <Word T="jawnie" S="5320" G="0" />
+                                <Word T="wejść" S="1525" G="0" />
+                                <Word T="do" S="1519" G="0" />
+                                <Word T="miasta" S="4172" G="0" />
+                                <Word T="lecz" S="235" G="0" />
+                                <Word T="był" S="2258" G="0" />
+                                <Word T="poza" S="1854" G="0" />
+                                <Word T="na" S="1722" G="0" />
+                                <Word T="bezludnych" S="2048" G="0" />
+                                <Word T="miejscach" S="5117" G="0" />
+                                <Word T="I" S="2532" G="0" />
+                                <Word T="przychodzili" S="2064" G="0" />
+                                <Word T="do" S="4314" G="0" />
+                                <Word T="niego" S="846" G="0" />
+                                <Word T="zewsząd" S="3836" G="0" />
+                            </Words>
+                        </Verse>
+                    </Verses>
+                </Chapter>
+            </Chapters>
+        </Book>
+    </Books>
+</Bible>

@@ -1,26 +1,25 @@
-﻿using System;
+﻿using BYZ.Core;
+using BYZ.Core.Model;
+using BYZ.Data;
+using BYZ.Data.Infrastructure;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
-using BYZ.Core;
-using BYZ.Core.Model;
-using BYZ.Data;
-using BYZ.Data.Infrastructure;
 
 namespace BYZ
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var reader = new JsonReader();
-            var pol = reader.Read<Pol>("../../../data/pol.json").Where(x => x.Chapter == 1).ToList();
-            var byz = reader.Read<Byz>("../../../data/byz.json").Where(x => x.Chapter == 1).ToList();
-            var link = reader.Read<Link>("../../../data/link.json");
-
+            var pol = reader.Read<Pol>("../../data/pol.json").Where(x => x.Chapter == 1).ToList();
+            var byz = reader.Read<Byz>("../../data/byz.json").Where(x => x.Chapter == 1).ToList();
+            var link = reader.Read<Link>("../../data/link.json");
 
             var translator = new Translator();
             var words = translator.Translate(pol, byz, link);
@@ -32,7 +31,11 @@ namespace BYZ
             bible.Books.Add(book);
 
             var xml = new XmlBibleSerializer();
-            var path = "../../../data/output/bible.xml";
+            var path = "../../data/output/bible.xml";
+
+            if (File.Exists(path))
+                File.Delete(path);
+
             xml.Serialize(path, bible);
 
             Console.WriteLine("done.");

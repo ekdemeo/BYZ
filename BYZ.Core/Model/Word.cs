@@ -2,12 +2,6 @@
 
 namespace BYZ.Core.Model
 {
-    public enum Underline
-    {
-        Single,
-        Double
-    }
-
     [XmlRoot("W")]
     public class Word
     {
@@ -17,6 +11,10 @@ namespace BYZ.Core.Model
         [XmlAttribute("S")]
         public string Strong { get; set; }
 
-        //public Underline Underline { get; set; }
+        [XmlAttribute("G")]
+        public int Underline { get; set; }
+
+        [XmlIgnore]
+        public int WordGroup { get; set; }
     }
 }

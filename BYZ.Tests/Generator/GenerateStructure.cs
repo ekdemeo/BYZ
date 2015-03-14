@@ -1,39 +1,33 @@
-ï»¿using System.Collections.Generic;
+using System.Collections.Generic;
 using BYZ.Core;
 using BYZ.Core.Model;
-using BYZ.Data;
 using NUnit.Framework;
 
-namespace BYZ.Tests
+namespace BYZ.Tests.Generator
 {
-    public class GeneratorTests
+    public class GenerateStructure : GeneratorTests
     {
-        readonly ModelGenerator _generator = new ModelGenerator();
-        private readonly List<WordTranslation> _words;
-
-        public GeneratorTests()
+        public GenerateStructure()
         {
-            _words = new List<WordTranslation>()
+            Words = new List<WordTranslation>()
             {
-                new WordTranslation(40, 1, 1, "ZwÃ³j ksiÄ™gi", "976", 1),
+                new WordTranslation(40, 1, 1, "Zwój ksiêgi", "976", 1),
                 new WordTranslation(40, 1, 1, "(o)", "", 0),
                 new WordTranslation(40, 1, 1, "narodzinach", "1076", 0),
                 new WordTranslation(40, 1, 1, "Jezusa", "2424", 0),
                 new WordTranslation(40, 1, 2, "Abraham", "1", 0),
-                new WordTranslation(40, 1, 2, "zrodziÅ‚", "1080", 0),
+                new WordTranslation(40, 1, 2, "zrodzi³", "1080", 0),
 
                 new WordTranslation(40, 12, 36, "nie", "3756", 0),
-                new WordTranslation(40, 12, 36, "bÄ™dzie", "1325", 2),
+                new WordTranslation(40, 12, 36, "bêdzie", "1325", 2),
                 new WordTranslation(40, 12, 36, "mu", "846", 0),
                 new WordTranslation(40, 12, 36, "dany", "1325", 2),
 
-                new WordTranslation(40, 12, 50, "bÄ™dzie", "4160", 3),
-                new WordTranslation(40, 12, 50, "czyniÅ‚", "4160", 3),
+                new WordTranslation(40, 12, 50, "bêdzie", "4160", 3),
+                new WordTranslation(40, 12, 50, "czyni³", "4160", 3),
 
-                new WordTranslation(40, 14, 16, "muszÄ…", "5532_2192", 4),
-                new WordTranslation(40, 14, 16, "czyniÄ‡", "4160", 0),
-
-
+                new WordTranslation(40, 14, 16, "musz¹", "5532_2192", 4),
+                new WordTranslation(40, 14, 16, "czyniæ", "4160", 0),
             };
         }
 
@@ -72,7 +66,7 @@ namespace BYZ.Tests
 
         private Book GetBookTest()
         {
-            var book = _generator.GenerateBook("Mathew", _words);
+            var book = Generator.GenerateBook("Mathew", Words);
             return book;
         }
     }

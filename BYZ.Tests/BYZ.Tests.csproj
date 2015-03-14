@@ -42,8 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Generator\ComputeUnderline.cs" />
+    <Compile Include="Generator\GenerateStructure.cs" />
     <Compile Include="TranslatorTests.cs" />
-    <Compile Include="GeneratorTests.cs" />
+    <Compile Include="Generator\GeneratorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

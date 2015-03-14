@@ -13,7 +13,7 @@ namespace BYZ.Core
             var result = from p in pol
                          join l in link on p.Uid equals l.Pol
                          join b in byz on l.Byz equals b.Uid
-                         group b by new { p.Word, p.Book, p.Chapter, p.Verse, p.No }
+                         group b by new { p.Word, p.Book, p.Chapter, p.Verse, p.No, p.WordGroup }
                              into g
                              let byzWords = g.ToList()
                              let word = g.Key.Word
@@ -21,13 +21,14 @@ namespace BYZ.Core
                              let verse = g.Key.Verse
                              let book = g.Key.Book
                              let no = g.Key.No
+                             let wordGroup = g.Key.WordGroup
                              select new WordTranslation()
                              {
                                  Pol = word,
                                  Chapter = chapter,
                                  Verse = verse,
                                  Book = book,
-                                 No = no,
+                                 WordGroup = wordGroup,
                                  Strong = byzWords[0].Strong > 0
                                  ? string.Join("_", byzWords.Select(x => x.Strong.ToString()).Distinct()) : null,
                                  Byz = string.Join(", ", byzWords.Select(x => x.Word.ToString()).Distinct())

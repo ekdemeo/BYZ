@@ -16,13 +16,7 @@
   \renewcommand{\headrulewidth}{.5pt}
 \selectlanguage{polish}
 
-\usepackage{etoolbox}% http://ctan.org/pkg/etoolbox
-\makeatletter
-\patchcmd{\makelettertitle}% <cmd>
-  {\raggedright \@opening}% <search>
-  {\@opening}% <replace>
-  {}{}% <success><failure>
-\makeatother
+
 
 \newcounter{versecounter}
 \renewcommand{\thesection}{\arabic{section}}
@@ -111,7 +105,7 @@
  
 \section{}
 \IndTwo
-\wrd{976}{Zwój księgi}
+\underline{\underline{\wrd{976}{Zwój księgi}}}
 \wrd{}{(o)}
 \wrd{1078}{narodzinach}
 \wrd{2424}{Jezusa}
