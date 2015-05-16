@@ -1,4 +1,6 @@
-﻿namespace BYZ.Data
+﻿using System.Diagnostics;
+
+namespace BYZ.Data
 {
     /*
      * "uid" : 1,
@@ -13,6 +15,8 @@
        "seg_l" : "",
        "seg_r" : " "
      */
+
+    [DebuggerDisplay("{SegL}{Word}{SegR} {Book} {Chapter}:{Verse}")]
     public class Pol : WordBase
     {
         public Pol(int uid, string word)
@@ -26,6 +30,5 @@
         public string SegL { get; set; }
 
         public string SegR { get; set; }
-
     }
 }

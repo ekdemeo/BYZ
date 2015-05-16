@@ -35,9 +35,9 @@ namespace BYZ.Tests.Generator
             foreach (var word in words)
             {
                 if (word.WordGroup == 1)
-                    Assert.AreEqual(word.Underline, 0);
-                if (word.WordGroup == 2)
                     Assert.AreEqual(word.Underline, 1);
+                if (word.WordGroup == 2)
+                    Assert.AreEqual(word.Underline, 2);
             }
 
             words = book.Chapters.First().Verses[1].Words;
@@ -45,9 +45,9 @@ namespace BYZ.Tests.Generator
             foreach (var word in words)
             {
                 if (word.WordGroup == 3)
-                    Assert.AreEqual(word.Underline, 0);
-                if (word.WordGroup == 4)
                     Assert.AreEqual(word.Underline, 1);
+                if (word.WordGroup == 4)
+                    Assert.AreEqual(word.Underline, 2);
             }
         }
     }

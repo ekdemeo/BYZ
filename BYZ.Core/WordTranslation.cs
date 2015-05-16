@@ -1,12 +1,13 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace BYZ.Core
 {
+    [DebuggerDisplay("{Chapter}:{Verse} {Pol}/{Byz} [{Strong}] {WordGroup}")]
     public class WordTranslation
     {
         public WordTranslation()
         {
-
         }
 
         public WordTranslation(int book, int chapter, int verse, string pol, string strong, int wordGroup)
@@ -30,6 +31,10 @@ namespace BYZ.Core
         public string Pol { get; set; }
 
         public string Byz { get; set; }
+
+        public string SegL { get; set; }
+
+        public string SegR { get; set; }
 
         public string Strong { get; set; }
 

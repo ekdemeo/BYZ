@@ -17,8 +17,8 @@ namespace BYZ
         private static void Main(string[] args)
         {
             var reader = new JsonReader();
-            var pol = reader.Read<Pol>("../../data/pol.json").Where(x => x.Chapter == 1).ToList();
-            var byz = reader.Read<Byz>("../../data/byz.json").Where(x => x.Chapter == 1).ToList();
+            var pol = reader.Read<Pol>("../../data/pol.json").ToList();
+            var byz = reader.Read<Byz>("../../data/byz.json").ToList();
             var link = reader.Read<Link>("../../data/link.json");
 
             var translator = new Translator();
@@ -31,7 +31,7 @@ namespace BYZ
             bible.Books.Add(book);
 
             var xml = new XmlBibleSerializer();
-            var path = "../../data/output/bible.xml";
+            var path = "../../data/bible_generated.xml";
 
             if (File.Exists(path))
                 File.Delete(path);

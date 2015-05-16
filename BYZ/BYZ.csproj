@@ -50,14 +50,10 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="data\byz.json" />
-    <None Include="data\latex\bible.aux" />
-    <None Include="data\latex\bible.log" />
-    <None Include="data\latex\bible.pdf" />
-    <None Include="data\latex\bible.synctex.gz" />
-    <None Include="data\latex\bible.tex" />
-    <None Include="data\latex\sample3.tex" />
+    <None Include="data\latex\bible_generated.tex" />
+    <None Include="data\latex\bible_template.tex" />
+    <None Include="data\latex\example.tex" />
     <None Include="data\link.json" />
-    <None Include="data\output\bible.tex" />
     <None Include="data\pol.json" />
     <None Include="packages.config" />
   </ItemGroup>
@@ -73,8 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="data\BibleXml2LaTeX.xsl" />
-    <Content Include="data\output\bible.xml" />
-    <Content Include="data\XML2LaTeX.xsl" />
+    <Content Include="data\bible_generated.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -67,7 +67,7 @@ namespace BYZ.Tests
 
             var words = _converter.Translate(pol, byz, link).ToList();
 
-            AssertContainsWord(words, "muszą", "5532_2192");
+            AssertContainsWord(words, "muszą", @"5532\_2192");
         }
 
         [Ignore("Not needed - MP supports grouping feature")]
@@ -128,7 +128,6 @@ namespace BYZ.Tests
                 new Link(5, 3)
             };
 
-
             var words = _converter.Translate(pol, byz, link).ToList();
 
             AssertContainsWord(words, "będzie", "1325");
@@ -157,7 +156,6 @@ namespace BYZ.Tests
                 new Link(1, 1),
                 new Link(3, 2)
             };
-
 
             var words = _converter.Translate(pol, byz, link).ToList();
 

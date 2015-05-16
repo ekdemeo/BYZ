@@ -193,3 +193,8 @@ StyleCop.Cache
 *.BASE.*
 *.LOCAL.*
 *.REMOTE.*
+
+
+*.synctex.gz
+*.aux
+*.dvi

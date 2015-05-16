@@ -32,7 +32,7 @@ namespace BYZ.Core
                 currentVerse.Words.Add(new Word()
                 {
                     Strong = word.Strong,
-                    Pol = word.Pol,
+                    Pol = word.SegL.Trim() + AddConnectorIfOneChar(word.Pol) + word.SegR.Trim(),
                     WordGroup = word.WordGroup
                 });
             }
@@ -45,6 +45,12 @@ namespace BYZ.Core
             return book;
         }
 
+        private string AddConnectorIfOneChar(string word)
+        {
+            word = word.Trim();
+            return word.Length == 1 ? word + "~" : word;
+        }
+
         private void ComputeUnderlines(Verse verse)
         {
             var result = from w in verse.Words
@@ -54,7 +60,7 @@ namespace BYZ.Core
                              orderby g.Key ascending
                              select g;
 
-            var currentUnderline = 0;
+            var currentUnderline = 1;
 
             foreach (var wordGroup in result)
             {
@@ -63,7 +69,7 @@ namespace BYZ.Core
                     word.Underline = currentUnderline;
                 }
 
-                currentUnderline = (currentUnderline + 1) % 2;
+                currentUnderline = currentUnderline == 1 ? 2 : 1;
             }
         }
     }

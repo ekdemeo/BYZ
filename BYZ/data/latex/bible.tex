@@ -1,4 +1,4 @@
-\documentclass[paper=a5,pagesize=pdftex]{scrbook}
+\documentclass[11pt,paper=a5,pagesize=pdftex]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{polski}
@@ -6,7 +6,10 @@
 \usepackage{lettrine}
 \usepackage{setspace}
 \usepackage[polish]{babel}
-%\usepackage{ebgaramond}
+\usepackage{soul}
+\usepackage{ulem}
+\usepackage{ebgaramond}
+%\usepackage{lmodern}  
 \usepackage{lipsum}
 \usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
 \usepackage{fancyhdr}
@@ -23,7 +26,7 @@
 \newcommand{\theverse}{\arabic{versecounter}}
 
 % fonts
-\font\strong=phvr at 6pt
+\font\strong=phvr at 5pt
 
 % definition of the page style with required headers
 %\newpagestyle{Biblestyle}{
@@ -94,26 +97,31 @@
   }%
 }
 
-\newcommand*\vrs[1]{%
-  \stepcounter{versecounter}%
-  \textsuperscript{\bfseries #1}}
+\soulregister{\wrd}{2}
+\soulregister{\ul}{1}
+
+\newcommand\dul[1]{\ul{\ul{#1}}}
+\newcommand*\bverse[1]{%
+ \stepcounter{versecounter}%
+ \textsuperscript{\textbf{\normalsize  #1}}}
  
+
 \begin{document}
 \doublespacing
+\setul{4pt}{0.2pt}
 
 \renewcommand{\chaptertitle}{Mateusza}
- 
 \section{}
 \IndTwo
-\underline{\underline{\wrd{976}{Zwój księgi}}}
-\wrd{}{(o)}
-\wrd{1078}{narodzinach}
+\ul{\setul{6pt}{0.2pt} \ul{{\wrd{976}{Zwój księgi}}}}
+\ul{{\wrd{}{(o)}}}
+\ul{{\wrd{1078\_120}{narodzinach}}}
 \wrd{2424}{Jezusa}
 \wrd{5547}{syna}
-\wrd{5547}{Dawida,}
+\wrd{5547}{Dawida, }
 \wrd{5547}{syna}
 \wrd{11}{Abrahama.}
-\vrs{2}
+\bverse{2}
 \wrd{11}{Abraham}
 \wrd{1080}{zrodził}
 \wrd{2464}{Izaaka,}
@@ -128,39 +136,7 @@
 \wrd{2532}{i}
 \wrd{80}{braci}
 \wrd{846}{jego}
-\vrs{3}
-\wrd{11}{Abraham}
-\wrd{1080}{zrodził}
-\wrd{2464}{Izaaka,}
-\wrd{1161}{a}
-\wrd{2464}{Izaak}
-\wrd{1080}{zrodził}
-\wrd{2384}{Jakuba,}
-\wrd{1161}{a}
-\wrd{2384}{Jakub}
-\wrd{1080}{zrodził}
-\wrd{2455}{Judę}
-\wrd{2532}{i}
-\wrd{80}{braci}
-\wrd{846}{jego}
-\section{}
-\IndTwo
-\vrs{1}
-\wrd{11}{Abraham}
-\wrd{1080}{zrodził}
-\wrd{2464}{Izaaka,}
-\wrd{1161}{a}
-\wrd{2464}{Izaak}
-\wrd{1080}{zrodził}
-\wrd{2384}{Jakuba,}
-\wrd{1161}{a}
-\wrd{2384}{Jakub}
-\wrd{1080}{zrodził}
-\wrd{2455}{Judę}
-\wrd{2532}{i}
-\wrd{80}{braci}
-\wrd{846}{jego}
-\vrs{2}
+\bverse{3}
 \wrd{11}{Abraham}
 \wrd{1080}{zrodził}
 \wrd{2464}{Izaaka,}
@@ -177,7 +153,7 @@
 \wrd{846}{jego}
 \section{}
 \IndTwo
-\vrs{1}
+\bverse{1}
 \wrd{11}{Abraham}
 \wrd{1080}{zrodził}
 \wrd{2464}{Izaaka,}
@@ -192,7 +168,7 @@
 \wrd{2532}{i}
 \wrd{80}{braci}
 \wrd{846}{jego}
-\vrs{2}
+\bverse{2}
 \wrd{11}{Abraham}
 \wrd{1080}{zrodził}
 \wrd{2464}{Izaaka,}
@@ -207,5 +183,36 @@
 \wrd{2532}{i}
 \wrd{80}{braci}
 \wrd{846}{jego}
- 
-\end{document} 
+\section{}
+\IndTwo
+\bverse{1}
+\wrd{11}{Abraham}
+\wrd{1080}{zrodził}
+\wrd{2464}{Izaaka,}
+\wrd{1161}{a}
+\wrd{2464}{Izaak}
+\wrd{1080}{zrodził}
+\wrd{2384}{Jakuba,}
+\wrd{1161}{a}
+\wrd{2384}{Jakub}
+\wrd{1080}{zrodził}
+\wrd{2455}{Judę}
+\wrd{2532}{i}
+\wrd{80}{braci}
+\wrd{846}{jego}
+\bverse{2}
+\wrd{11}{Abraham}
+\wrd{1080}{zrodził}
+\wrd{2464}{Izaaka,}
+\wrd{1161}{a}
+\wrd{2464}{Izaak}
+\wrd{1080}{zrodził}
+\wrd{2384}{Jakuba,}
+\wrd{1161}{a}
+\wrd{2384}{Jakub}
+\wrd{1080}{zrodził}
+\wrd{2455}{Judę}
+\wrd{2532}{i}
+\wrd{80}{braci}
+\wrd{846}{jego}
+\end{document}
