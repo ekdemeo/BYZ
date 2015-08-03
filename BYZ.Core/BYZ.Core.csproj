@@ -39,7 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ModelGenerator.cs" />
+    <Compile Include="Converters\ExpexBibleConverter.cs" />
+    <Compile Include="Underline.cs" />
+    <Compile Include="Writers\ExpexBibleWriter.cs" />
+    <Compile Include="Writers\IBibleWriter.cs" />
+    <Compile Include="ModelBuilder.cs" />
     <Compile Include="Model\Bible.cs" />
     <Compile Include="Model\Book.cs" />
     <Compile Include="Model\Chapter.cs" />
@@ -48,7 +52,7 @@
     <Compile Include="Translator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WordTranslation.cs" />
-    <Compile Include="XmlBibleSerializer.cs" />
+    <Compile Include="Writers\XmlBibleWriter.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BYZ.Data\BYZ.Data.csproj">

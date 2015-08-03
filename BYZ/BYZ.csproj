@@ -49,12 +49,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="data\byz.json" />
-    <None Include="data\latex\bible_generated.tex" />
-    <None Include="data\latex\bible_template.tex" />
-    <None Include="data\latex\example.tex" />
-    <None Include="data\link.json" />
-    <None Include="data\pol.json" />
+    <None Include="latex\bible_template.tex" />
+    <None Include="latex\examples\expec.aux" />
+    <None Include="latex\examples\expec.log" />
+    <None Include="latex\examples\expec.pdf" />
+    <None Include="latex\examples\expec.synctex.gz" />
+    <None Include="latex\examples\expec.tex" />
+    <None Include="latex\examples\expec2.aux" />
+    <None Include="latex\examples\expec2.log" />
+    <None Include="latex\examples\expec2.pdf" />
+    <None Include="latex\examples\expec2.synctex.gz" />
+    <None Include="latex\examples\expec2.tex" />
+    <None Include="latex\release\mt1-10_v0.1.pdf" />
+    <None Include="latex\templates\bible_content_v0.1.tex" />
+    <None Include="latex\templates\bible_template_v0.1.tex" />
+    <None Include="output\byz.json" />
+    <None Include="latex\bible_content.tex" />
+    <None Include="output\link.json" />
+    <None Include="output\pol.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -68,8 +80,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="data\BibleXml2LaTeX.xsl" />
-    <Content Include="data\bible_generated.xml" />
+    <Content Include="output\BibleXml2LaTeX_v0.1.xsl" />
+    <Content Include="output\bible.xml" />
+    <Content Include="output\BibleXml2LaTeX_v0.2.xsl" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

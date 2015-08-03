@@ -66,7 +66,7 @@ namespace BYZ.Tests.Generator
 
         private Book GetBookTest()
         {
-            var book = Generator.GenerateBook("Mathew", Words);
+            var book = Builder.GenerateBook("Mathew", Words);
             return book;
         }
     }

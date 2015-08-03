@@ -2,11 +2,11 @@
 using System.Xml.Serialization;
 using BYZ.Core.Model;
 
-namespace BYZ.Core
+namespace BYZ.Core.Converters
 {
-    public class XmlBibleSerializer
+    public class XmlBibleWriter : IBibleWriter
     {
-        public void Serialize(string fileName, Bible bible)
+        public void Convert(string fileName, Bible bible)
         {
             var serializer = new XmlSerializer(typeof(Bible));
 

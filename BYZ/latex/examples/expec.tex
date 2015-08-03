@@ -1,0 +1,43 @@
+% !TEX TS-program = XeLaTeX
+
+\documentclass{article}
+
+\usepackage{fontspec}
+\usepackage[polish]{babel}
+\usepackage{lettrine}
+\usepackage[pagestyles]{titlesec}
+\setmainfont{Palatino Linotype}
+\setsansfont{Arial}
+\newfontfamily\versefont{Tahoma}
+\selectlanguage{polish}
+\font\strong=phvr at 6pt
+
+\titleformat{\section}
+{}{\lettrine{\thesection}}{5em}{}[\vskip-0.75\baselineskip]
+\titlespacing{\section}{1em}{5pt}{1pt}
+
+\usepackage{expex}
+\lingset{everygla=\footnotesize\sffamily, % formatting the numbers in the gla line
+    glwordalign=center, % center alignment within glwords
+    aboveglbskip=-0.4ex, % narrows the vertical gap between the gla and glb lines
+    glhangstyle=none, % no hanging indent
+    glspace=!0pt plus .2em, % widens the allowable space between glwords to avoid overfull lines
+    glrightskip=0pt plus .5\hsize} % widens the allowable space between the right margin and the end of the last glword on a line to avoid overfull lines
+
+\newcommand\doubleline[1]{\underline{{\underline{#1}}}}
+\newcommand{\vs}[1]{{\bfseries\versefont #1}}
+
+\renewcommand{\DefaultLoversize}{1} 
+\renewcommand{\DefaultLraise}{-1.3}
+
+\begin{document}
+\exdisplay 
+\lettrine{1 }{}%
+\begingl
+\gla {} 4250 2228 4905 846 2147 1111 1111 1111 1111 1111 1111 1111 1111 {} 11 11 12 13 14 11 11 11 11 11 11 1111 1111//
+\glb \vs{18} \underline{wcześniej, zanim} [-] się oni znalazła się \underline{tą, która ma} (dziecko) w łonie \underline{za sprawą} \doubleline{Ducha Świętego} \vs{19} a Jozef  \doubleline{jej mąż ktory był}, \doubleline{nie chcąc wystawić jej na pośmiewisko} \vs{20} test test test test test test test \vs{21} //
+\endgl
+
+\end{document}
+
+

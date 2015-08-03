@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace BYZ.Core
 {
-    public class ModelGenerator
+    public class ModelBuilder
     {
         public Book GenerateBook(string name, List<WordTranslation> words)
         {
@@ -60,16 +60,16 @@ namespace BYZ.Core
                              orderby g.Key ascending
                              select g;
 
-            var currentUnderline = 1;
+            var currentUnderline = Underline.Single;
 
             foreach (var wordGroup in result)
             {
                 foreach (var word in wordGroup.ToList())
                 {
-                    word.Underline = currentUnderline;
+                    word.Underline = (int)currentUnderline;
                 }
 
-                currentUnderline = currentUnderline == 1 ? 2 : 1;
+                currentUnderline = currentUnderline == Underline.Single ? Underline.Double : Underline.Single;
             }
         }
     }

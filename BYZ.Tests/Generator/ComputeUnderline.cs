@@ -28,7 +28,7 @@ namespace BYZ.Tests.Generator
         [Test]
         public void ShouldComputeSingleAndDoubleUnderline()
         {
-            book = Generator.GenerateBook("test", Words);
+            book = Builder.GenerateBook("test", Words);
 
             var words = book.Chapters.First().Verses[0].Words;
 

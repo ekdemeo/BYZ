@@ -5,7 +5,7 @@ namespace BYZ.Tests.Generator
 {
     public class GeneratorTests
     {
-        protected ModelGenerator Generator = new ModelGenerator();
+        protected ModelBuilder Builder = new ModelBuilder();
         protected List<WordTranslation> Words;
     }
 }
