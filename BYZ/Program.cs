@@ -34,18 +34,16 @@ namespace BYZ
             Bible bible = new Bible();
             bible.Books.Add(book);
 
-            //var path = outputPath + "bible.xml";
-            //var xml = new XmlBibleWriter();
-          
+            var path = outputPath + "bible_content.xml";
+            var xml = new XmlBibleWriter();
+            if (File.Exists(path))
+                File.Delete(path);
 
-            //if (File.Exists(path))
-            //    File.Delete(path);
+            xml.Convert(path, bible);
 
-            //xml.Convert(path, bible);
-
-            var path = outputPath + "bible_content.tex";
-            var expex = new ExpexBibleWriter();
-            expex.Convert(path, bible);
+            //var path = outputPath + "bible_content.tex";
+            //var expex = new ExpexBibleWriter();
+            //expex.Convert(path, bible);
 
             Console.WriteLine("done.");
         }

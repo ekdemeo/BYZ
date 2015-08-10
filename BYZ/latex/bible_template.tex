@@ -1,29 +1,41 @@
-% !TEX TS-program = XeLaTeX
-
-\documentclass{article}
-
-\usepackage{fontspec}
-\usepackage[polish]{babel}
-\usepackage{lettrine}
+\documentclass[10pt,paper=a5,pagesize=pdftex]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{polski}
 \usepackage[pagestyles]{titlesec}
+\usepackage{lettrine}
+\usepackage{setspace}
+\usepackage[polish]{babel}
+\usepackage{soul}
+%\usepackage{ebgaramond}
+%usepackage{lmodern}  
 \usepackage{lipsum}
-\setmainfont{Palatino Linotype}
-\setsansfont{Arial}
-\newfontfamily\versefont{Tahoma}
+\usepackage{ragged2e}
+%\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+%\usepackage{fancyhdr}
+%  \pagestyle{fancy}
+%  \fancyhf{}
+%  \fancyhead[RO,LE]{\rightmark}
+%  \renewcommand{\headrulewidth}{.5pt}
 \selectlanguage{polish}
-\font\strong=phvr at 6pt
 
-\titleformat{\section}
-{}{\lettrine{\thesection}}{5em}{}[\vskip-0.75\baselineskip]
-\titlespacing{\section}{1em}{5pt}{1pt}
 
-\usepackage{expex}
-\lingset{everygla=\footnotesize\sffamily, % formatting the numbers in the gla line
-    glwordalign=center, % center alignment within glwords
-    aboveglbskip=-0.4ex, % narrows the vertical gap between the gla and glb lines
-    glhangstyle=none, % no hanging indent
-    glspace=!0pt plus .1em, % widens the allowable space between glwords to avoid overfull lines
-    glrightskip=0pt plus .3\hsize} % widens the allowable space between the right margin and the end of the last glword on a line to avoid overfull lines
+\newcounter{versecounter}
+\renewcommand{\thesection}{\arabic{section}}
+\newcommand{\theverse}{\arabic{versecounter}}
+
+% fonts
+\font\strong=phvr at 5pt
+
+% definition of the page style with required headers
+%\newpagestyle{Biblestyle}{
+%  \setheadrule{.009pt}
+%  \sethead[\thepage][\chaptertitle]
+%    [\toptitlemarks\thesection:\toptitlemarks\theverse---%
+%      \bottitlemarks\thesection:\bottitlemarks\theverse]%
+%   {\toptitlemarks\thesection:\toptitlemarks\theverse---%
+%     \bottitlemarks\thesection:\bottitlemarks\theverse}{\chaptertitle}{\thepage}
+%}
 
 % definition of the page style with required headers
 \newpagestyle{Biblestyle}{
@@ -35,19 +47,66 @@
   %   \bottitlemarks\thesection:\bottitlemarks\theverse}{\chaptertitle}{\thepage}
 }
 
+
+% sets the marks to be used (section and subsection)
+\setmarks{section}{subsection}
+
+% sections and subsections formatting
+\titleformat{\section}
+{}{\lettrine{\thesection}}{0em}{}[\vskip-0.65\baselineskip]
+\titleformat{\subsection}[runin]
+{\small\bfseries}{\thesubsection}{1em}{}
+\titlespacing{\section}{1em}{-1pt}{0pt}
+
+
 \pagestyle{Biblestyle}
 
+\renewcommand{\LettrineFontHook}{\bfseries}
+
+\setlength{\parindent}{1pt}
+
+\newlength\NumLen
+\newlength\LinLen
+% indents one line of text. Indentation= width of section number + 1em
+\newcommand\IndOne{%
+  \settowidth\NumLen{\thesection}
+  \addtolength\NumLen{0.7em}
+  \setlength\LinLen{\dimexpr\textwidth-\NumLen}%\the\NumLen\the\LinLen
+  \parshape 2 \NumLen \LinLen 0pt \textwidth}
+  
+% indents two lines of text. Indentation= width of section number + 1em
+\newcommand\IndTwo{%
+  \settowidth\NumLen{\thesection}
+  \addtolength\NumLen{0.7em}
+  \setlength\LinLen{\dimexpr\textwidth-\NumLen}%\the\NumLen\the\LinLen
+  \parshape 3 \NumLen \LinLen \NumLen \LinLen 0pt \textwidth}
+ 
+% macros
+
+% word
+\newcommand\wrd[2]{%
+  \leavevmode
+  \vbox{\offinterlineskip
+    \halign{%
+      \hfil##\hfil\cr
+      {\strong\vphantom{p}#1}\cr
+      \noalign{\vskip\lineskip}%
+      \vphantom{A}#2\cr
+    }%
+  }%
+}
+
 \newcommand\doubleline[1]{\underline{{\underline{#1}}}}
-\newcommand{\vs}[1]{{\bfseries\versefont #1}}
-
-\renewcommand{\DefaultLoversize}{1} 
-\renewcommand{\DefaultLraise}{-1.3}
-
-
+\newcommand*\bverse[1]{%
+ \stepcounter{versecounter}%
+ \textsuperscript{\textbf{\normalsize  #1}}}
+ 
+ \newcommand*\bchapter[1]{%
+ \lettrine[loversize=0.3,lraise=0.2]{#1}{}}
+ 
 \begin{document}
-\exdisplay
+\sloppy
+\doublespacing
+\renewcommand{\chaptertitle}{Mateusza}
 \include{bible_content}
-\xe
-\end{document}
-
-
+\end{document} 

@@ -1,0 +1,1 @@
+ tools\msxsl.exe bible_content.xml BibleXml2LaTeX.xsl -o bible_content.tex

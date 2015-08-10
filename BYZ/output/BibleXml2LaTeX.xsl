@@ -10,7 +10,7 @@
 
     <xsl:template match="Book">
         <xsl:for-each select="Chapters/Chapter">
-            <xsl:text> \section{} \IndTwo</xsl:text>
+            \bchapter{<xsl:value-of select="@N" /><xsl:text>}</xsl:text>
             <xsl:for-each select="Verses/Verse">
                 \bverse{<xsl:value-of select="@N" /><xsl:text>}</xsl:text>
                 <xsl:for-each select="Words/Word">
