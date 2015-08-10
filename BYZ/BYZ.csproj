@@ -80,9 +80,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="output\BibleXml2LaTeX_v0.1.xsl" />
+    <Content Include="output\BibleXml2LaTeX.xsl">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="output\bible.xml" />
-    <Content Include="output\BibleXml2LaTeX_v0.2.xsl" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

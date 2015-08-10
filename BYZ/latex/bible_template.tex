@@ -2,15 +2,18 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{polski}
-\usepackage[pagestyles]{titlesec}
+%\usepackage[pagestyles]{titlesec}
 \usepackage{lettrine}
 \usepackage{setspace}
 \usepackage[polish]{babel}
 \usepackage{soul}
+\usepackage{ulem}
 %\usepackage{ebgaramond}
 %usepackage{lmodern}  
 \usepackage{lipsum}
 \usepackage{ragged2e}
+\usepackage[extramarks]{titleps}
+\usepackage{lipsum}
 %\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
 %\usepackage{fancyhdr}
 %  \pagestyle{fancy}
@@ -19,71 +22,53 @@
 %  \renewcommand{\headrulewidth}{.5pt}
 \selectlanguage{polish}
 
+% counters
+\newcounter{chaptercounter}
+\newmarkset{chaptercounter}
+\newextramark*{chaptercounter}{chaptercounter}
 
-\newcounter{versecounter}
-\renewcommand{\thesection}{\arabic{section}}
+\newcounter{versecounter}[chaptercounter]
+\newmarkset{versecounter}
+\newextramark*{versecounter}{versecounter}
+
+\newcommand{\thechapter}{\arabic{chaptercounter}}
 \newcommand{\theverse}{\arabic{versecounter}}
 
+\newpagestyle{biblestyle}{
+  \setheadrule{.009pt}
+  \sethead[\thepage][]
+    [\topextramarks{chaptercounter}{\thechapter}:\topextramarks{versecounter}{\theverse}---%
+      \botextramarks{chaptercounter}{\thechapter}:\botextramarks{versecounter}{\theverse}]%
+    {\topextramarks{chaptercounter}{\thechapter}:\topextramarks{versecounter}{\theverse}---%
+      \botextramarks{chaptercounter}{\thechapter}:\botextramarks{versecounter}{\theverse}}
+      {\chaptertitle}
+      {\thepage}
+      }
+
+\pagestyle{biblestyle}
+      
 % fonts
 \font\strong=phvr at 5pt
 
-% definition of the page style with required headers
-%\newpagestyle{Biblestyle}{
-%  \setheadrule{.009pt}
-%  \sethead[\thepage][\chaptertitle]
-%    [\toptitlemarks\thesection:\toptitlemarks\theverse---%
-%      \bottitlemarks\thesection:\bottitlemarks\theverse]%
-%   {\toptitlemarks\thesection:\toptitlemarks\theverse---%
-%     \bottitlemarks\thesection:\bottitlemarks\theverse}{\chaptertitle}{\thepage}
-%}
 
-% definition of the page style with required headers
-\newpagestyle{Biblestyle}{
-  \setheadrule{.009pt}
-  \sethead[\thepage][\chaptertitle][]{}{\chaptertitle}{\thepage}
-  %  [\toptitlemarks\thesection:\toptitlemar{ks\theverse---%
-  %    \bottitlemarks\thesection:\bottitlemarks\theverse]%
-  % {\toptitlemarks\thesection:\toptitlemarks\theverse---%
-  %   \bottitlemarks\thesection:\bottitlemarks\theverse}{\chaptertitle}{\thepage}
+\newcommand\stepchapter{%
+\stepcounter{chaptercounter}%
+\extramark{chaptercounter}%
 }
 
+\newcommand\stepverse{%
+\stepcounter{versecounter}%
+\extramark{versecounter}%
+\extramark{chaptercounter}%
+}
 
-% sets the marks to be used (section and subsection)
-\setmarks{section}{subsection}
-
-% sections and subsections formatting
-\titleformat{\section}
-{}{\lettrine{\thesection}}{0em}{}[\vskip-0.65\baselineskip]
-\titleformat{\subsection}[runin]
-{\small\bfseries}{\thesubsection}{1em}{}
-\titlespacing{\section}{1em}{-1pt}{0pt}
-
-
-\pagestyle{Biblestyle}
-
+% lettrine configuration
 \renewcommand{\LettrineFontHook}{\bfseries}
+\renewcommand{\DefaultLoversize}{0.3}
+\renewcommand{\DefaultLraise}{0.2}
 
-\setlength{\parindent}{1pt}
-
-\newlength\NumLen
-\newlength\LinLen
-% indents one line of text. Indentation= width of section number + 1em
-\newcommand\IndOne{%
-  \settowidth\NumLen{\thesection}
-  \addtolength\NumLen{0.7em}
-  \setlength\LinLen{\dimexpr\textwidth-\NumLen}%\the\NumLen\the\LinLen
-  \parshape 2 \NumLen \LinLen 0pt \textwidth}
-  
-% indents two lines of text. Indentation= width of section number + 1em
-\newcommand\IndTwo{%
-  \settowidth\NumLen{\thesection}
-  \addtolength\NumLen{0.7em}
-  \setlength\LinLen{\dimexpr\textwidth-\NumLen}%\the\NumLen\the\LinLen
-  \parshape 3 \NumLen \LinLen \NumLen \LinLen 0pt \textwidth}
- 
-% macros
-
-% word
+%**************  macros
+% word with strong number above
 \newcommand\wrd[2]{%
   \leavevmode
   \vbox{\offinterlineskip
@@ -96,13 +81,20 @@
   }%
 }
 
+% double underline
 \newcommand\doubleline[1]{\underline{{\underline{#1}}}}
+
+% bible verse
 \newcommand*\bverse[1]{%
- \stepcounter{versecounter}%
- \textsuperscript{\textbf{\normalsize  #1}}}
+ \stepverse%
+ \textsuperscript{\textbf{\normalsize  #1}}%
+ }
  
+% bible chapter
  \newcommand*\bchapter[1]{%
- \lettrine[loversize=0.3,lraise=0.2]{#1}{}}
+ \stepchapter%
+ \lettrine{#1}{}%
+ }
  
 \begin{document}
 \sloppy
