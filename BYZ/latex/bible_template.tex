@@ -82,7 +82,12 @@
 }
 
 % double underline
-\newcommand\doubleline[1]{\underline{{\underline{#1}}}}
+\newcommand\usingle[1]{\uline{#1}}
+\newcommand\udouble[1]{\uuline{#1}}
+
+% underlines
+\renewcommand{\ULthickness}{0.3pt}              
+\renewcommand{\ULdepth}{1ex}                 
 
 % bible verse
 \newcommand*\bverse[1]{%
