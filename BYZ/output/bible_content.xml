@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <Bible xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Books>
     <Book>
@@ -97,10 +97,10 @@
                 <Word T="a~" S="1161" G="0" />
                 <Word T="Jesaj" S="2421" G="0" />
                 <Word T="zrodził" S="1080" G="0" />
-                <Word T="Dawida–" S="1138" G="0" />
+                <Word T="Dawida –" S="1138" G="0" />
                 <Word T="króla," S="935" G="0" />
                 <Word T="a~" S="1161" G="0" />
-                <Word T="Dawid–" S="1138" G="0" />
+                <Word T="Dawid –" S="1138" G="0" />
                 <Word T="król" S="935" G="0" />
                 <Word T="zrodził" S="1080" G="0" />
                 <Word T="Salomona" S="4672" G="0" />
@@ -277,7 +277,7 @@
                 <Word T="od" S="575" G="0" />
                 <Word T="Abrahama" S="11" G="0" />
                 <Word T="do" S="2193" G="0" />
-                <Word T="Dawida–" S="1138" G="0" />
+                <Word T="Dawida –" S="1138" G="0" />
                 <Word T="pokoleń" S="1074" G="0" />
                 <Word T="czternaście," S="1180" G="0" />
                 <Word T="i~" S="2532" G="0" />
@@ -286,7 +286,7 @@
                 <Word T="do" S="2193" G="0" />
                 <Word T="przesiedlenia" S="3350" G="0" />
                 <Word T="(do)" G="0" />
-                <Word T="Babilonu–" S="897" G="0" />
+                <Word T="Babilonu –" S="897" G="0" />
                 <Word T="pokoleń" S="1074" G="0" />
                 <Word T="czternaście," S="1180" G="0" />
                 <Word T="i~" S="2532" G="0" />
@@ -295,7 +295,7 @@
                 <Word T="(do)" G="0" />
                 <Word T="Babilonu" S="897" G="0" />
                 <Word T="do" S="2193" G="0" />
-                <Word T="Chrystusa–" S="5547" G="0" />
+                <Word T="Chrystusa –" S="5547" G="0" />
                 <Word T="pokoleń" S="1074" G="0" />
                 <Word T="czternaście." S="1180" G="0" />
               </Words>
@@ -497,7 +497,7 @@
                 <Word T="w Judei," S="2449" G="2" />
                 <Word T="za" S="1722" G="0" />
                 <Word T="dni" S="2250" G="0" />
-                <Word T="Heroda–" S="2264" G="0" />
+                <Word T="Heroda –" S="2264" G="0" />
                 <Word T="króla," S="935" G="0" />
                 <Word T="oto" S="2400" G="0" />
                 <Word T="magowie" S="3097" G="0" />
@@ -601,7 +601,7 @@
                 <Word T="który" S="3748" G="0" />
                 <Word T="paść będzie" S="4165" G="2" />
                 <Word T="lud" S="2992" G="0" />
-                <Word T="mój–" S="3450" G="0" />
+                <Word T="mój –" S="3450" G="0" />
                 <Word T="Izraela." S="2474" G="0" />
               </Words>
             </Verse>
@@ -967,11 +967,11 @@
                 <Word T="Archelaos" S="745" G="0" />
                 <Word T="jest królem" S="936" G="2" />
                 <Word T="w~" S="1909" G="0" />
-                <Word T="Judei–" S="2449" G="0" />
+                <Word T="Judei –" S="2449" G="0" />
                 <Word T="zamiast" S="473" G="0" />
                 <Word T="Heroda," S="2264" G="0" />
                 <Word T="swojego" S="846" G="0" />
-                <Word T="ojca–" S="3962" G="0" />
+                <Word T="ojca –" S="3962" G="0" />
                 <Word T="przestraszył się" S="5399" G="1" />
                 <Word T="tam" S="1563" G="0" />
                 <Word T="wejść;" S="565" G="0" />
@@ -1110,7 +1110,7 @@
                 <Word T="przez" S="5259" G="0" />
                 <Word T="niego" S="846" G="0" />
                 <Word T="w~" S="1722" G="0" />
-                <Word T="Jordanie–" S="2446" G="0" />
+                <Word T="Jordanie –" S="2446" G="0" />
                 <Word T="ci, którzy wyznawali" S="1843" G="2" />
                 <Word T="swoje" S="846" G="0" />
                 <Word T="grzechy." S="266" G="0" />
@@ -1161,7 +1161,7 @@
                 <Word T="wobec" S="1722" G="0" />
                 <Word T="siebie:" S="1438" G="0" />
                 <Word T="mamy" S="2192" G="0" />
-                <Word T="ojca–" S="3962" G="0" />
+                <Word T="ojca –" S="3962" G="0" />
                 <Word T="Abrahama," S="11" G="0" />
                 <Word T="gdyż" S="1063" G="0" />
                 <Word T="mówię" S="3004" G="0" />
@@ -2479,10 +2479,10 @@
                 <Word T="by" S="302" G="0" />
                 <Word T="uwolnił" S="630" G="0" />
                 <Word T="swoją" S="846" G="0" />
-                <Word T="żonę–" S="1135" G="0" />
+                <Word T="żonę –" S="1135" G="0" />
                 <Word T="z wyjątkiem," S="3924" G="1" />
                 <Word T="gdy mowa o" S="3056" G="2" />
-                <Word T="nierządzie–" S="4202" G="0" />
+                <Word T="nierządzie –" S="4202" G="0" />
                 <Word T="czyni" S="4160" G="0" />
                 <Word T="ją" S="846" G="0" />
                 <Word T="cudzołożną." S="3429" G="0" />
@@ -2490,7 +2490,7 @@
                 <Word T="gdyby" S="1437" G="0" />
                 <Word T="ktoś" S="3739" G="0" />
                 <Word T="uwolnioną" S="630" G="0" />
-                <Word T="wziął za żonę–" S="1060" G="1" />
+                <Word T="wziął za żonę –" S="1060" G="1" />
                 <Word T="cudzołoży." S="3429" G="0" />
               </Words>
             </Verse>
@@ -2518,7 +2518,7 @@
                 <Word T="mówię:" S="3004" G="0" />
                 <Word T="W ogóle" S="3654" G="1" />
                 <Word T="nie" S="3361" G="0" />
-                <Word T="przysięgajcie–" S="3660" G="0" />
+                <Word T="przysięgajcie –" S="3660" G="0" />
                 <Word T="ani" S="3383" G="0" />
                 <Word T="na" S="1722" G="0" />
                 <Word T="niebiosa," S="3772" G="0" />
@@ -2573,9 +2573,9 @@
                 <Word T="wasza" S="5216" G="0" />
                 <Word T="mowa" S="3056" G="0" />
                 <Word T="niech będzie:" S="2077" G="1" />
-                <Word T="Tak–" S="3483" G="0" />
+                <Word T="Tak –" S="3483" G="0" />
                 <Word T="tak," S="3483" G="0" />
-                <Word T="nie–" S="3756" G="0" />
+                <Word T="nie –" S="3756" G="0" />
                 <Word T="nie." S="3756" G="0" />
                 <Word T="A~" S="1161" G="0" />
                 <Word T="co" S="3588" G="0" />
@@ -2816,7 +2816,7 @@
                 <Word T="zapłaty" S="3408" G="0" />
                 <Word T="u~" S="3844" G="0" />
                 <Word T="waszego" S="5216" G="0" />
-                <Word T="Ojca–" S="3962" G="0" />
+                <Word T="Ojca –" S="3962" G="0" />
                 <Word T="tego" S="3588" G="0" />
                 <Word T="w~" S="1722" G="0" />
                 <Word T="niebiosach." S="3772" G="0" />
@@ -3640,7 +3640,7 @@
                 <Word T="[-]" S="1722" G="0" />
                 <Word T="nogami," S="4228" G="0" />
                 <Word T="a~" S="2532" G="0" />
-                <Word T="obróciwszy się–" S="4762" G="2" />
+                <Word T="obróciwszy się –" S="4762" G="2" />
                 <Word T="(nie)" G="0" />
                 <Word T="roztrzaskały" S="4486" G="0" />
                 <Word T="was." S="5209" G="0" />
@@ -3667,10 +3667,10 @@
               <Words>
                 <Word T="Każdy" S="3956" G="0" />
                 <Word T="bowiem" S="1063" G="0" />
-                <Word T="proszący–" S="154" G="0" />
+                <Word T="proszący –" S="154" G="0" />
                 <Word T="dostaje," S="2983" G="0" />
                 <Word T="a~" S="2532" G="0" />
-                <Word T="szukający–" S="2212" G="0" />
+                <Word T="szukający –" S="2212" G="0" />
                 <Word T="znajduje," S="2147" G="0" />
                 <Word T="a~" S="2532" G="0" />
                 <Word T="pukającemu" S="2925" G="0" />
@@ -3843,7 +3843,7 @@
                 <Word T="kiście winogron," S="4718" G="2" />
                 <Word T="albo" S="2228" G="0" />
                 <Word T="z~" S="575" G="0" />
-                <Word T="ostu–" S="5146" G="0" />
+                <Word T="ostu –" S="5146" G="0" />
                 <Word T="figi?" S="4810" G="0" />
               </Words>
             </Verse>
@@ -3858,7 +3858,7 @@
                 <Word T="owoce," S="2590" G="0" />
                 <Word T="a~" S="1161" G="0" />
                 <Word T="zgniłe" S="4550" G="0" />
-                <Word T="drzewo–" S="1186" G="0" />
+                <Word T="drzewo –" S="1186" G="0" />
                 <Word T="rodzi" S="4160" G="0" />
                 <Word T="złe" S="4190" G="0" />
                 <Word T="owoce." S="2590" G="0" />
@@ -3875,7 +3875,7 @@
                 <Word T="owoców," S="2590" G="0" />
                 <Word T="ani" S="3761" G="0" />
                 <Word T="zgniłe" S="4550" G="0" />
-                <Word T="drzewo–" S="1186" G="0" />
+                <Word T="drzewo –" S="1186" G="0" />
                 <Word T="rodzić" S="4160" G="0" />
                 <Word T="pięknych" S="2570" G="0" />
                 <Word T="owoców." S="2590" G="0" />
@@ -4500,7 +4500,7 @@
                 <Word T="nory," S="5454" G="0" />
                 <Word T="a~" S="2532" G="0" />
                 <Word T="ptaki" S="4071" G="0" />
-                <Word T="niebiańskie–" S="3772" G="0" />
+                <Word T="niebiańskie –" S="3772" G="0" />
                 <Word T="gniazda," S="2682" G="0" />
                 <Word T="lecz" S="1161" G="0" />
                 <Word T="Syn" S="5207" G="0" />
@@ -4640,10 +4640,10 @@
                 <Word T="on," S="846" G="0" />
                 <Word T="gdy przybył" S="2064" G="1" />
                 <Word T="na" S="1519" G="0" />
-                <Word T="drugą stronę–" S="4008" G="2" />
+                <Word T="drugą stronę –" S="4008" G="2" />
                 <Word T="na" S="1519" G="0" />
                 <Word T="terytorium" S="5561" G="0" />
-                <Word T="Gergezeńczyków–" S="1086" G="0" />
+                <Word T="Gergezeńczyków –" S="1086" G="0" />
                 <Word T="wyszli" S="5221" G="1" />
                 <Word T="mu" S="846" G="0" />
                 <Word T="na spotkanie" S="5221" G="1" />
@@ -4652,7 +4652,7 @@
                 <Word T="(którzy)" G="0" />
                 <Word T="wyszli" S="1831" G="0" />
                 <Word T="z~" S="1537" G="0" />
-                <Word T="grobów–" S="3419" G="0" />
+                <Word T="grobów –" S="3419" G="0" />
                 <Word T="bardzo" S="3029" G="0" />
                 <Word T="uciążliwi," S="5467" G="0" />
                 <Word T="tak że" S="5620" G="2" />
@@ -4889,10 +4889,10 @@
                 <Word T="ziemi" S="1093" G="0" />
                 <Word T="moc" S="1849" G="0" />
                 <Word T="odpuszczania" S="863" G="0" />
-                <Word T="grzechów–" S="266" G="0" />
+                <Word T="grzechów –" S="266" G="0" />
                 <Word T="wtedy" S="5119" G="0" />
                 <Word T="powiedział" S="3004" G="0" />
-                <Word T="sparaliżowanemu–" S="3885" G="0" />
+                <Word T="sparaliżowanemu –" S="3885" G="0" />
                 <Word T="Powstań," S="1453" G="0" />
                 <Word T="zabierz" S="142" G="0" />
                 <Word T="swe" S="4675" G="0" />
@@ -5561,7 +5561,7 @@
                 <Word T="apostołów" S="652" G="0" />
                 <Word T="są" S="2076" G="0" />
                 <Word T="takie:" S="5023" G="0" />
-                <Word T="pierwszym–" S="4413" G="0" />
+                <Word T="pierwszym –" S="4413" G="0" />
                 <Word T="Szymon," S="4613" G="0" />
                 <Word T="zwany" S="3004" G="0" />
                 <Word T="Piotrem" S="4074" G="0" />
@@ -5569,7 +5569,7 @@
                 <Word T="jego" S="846" G="0" />
                 <Word T="brat," S="80" G="0" />
                 <Word T="Andrzej;" S="406" G="0" />
-                <Word T="Jakub–" S="2385" G="0" />
+                <Word T="Jakub –" S="2385" G="0" />
                 <Word T="ten," S="3588" G="0" />
                 <Word T="(który jest synem)" G="0" />
                 <Word T="Zebedeusza" S="2199" G="0" />
@@ -5586,9 +5586,9 @@
                 <Word T="Bartłomiej;" S="918" G="0" />
                 <Word T="Tomasz" S="2381" G="0" />
                 <Word T="i~" S="2532" G="0" />
-                <Word T="Mateusz–" S="3156" G="0" />
+                <Word T="Mateusz –" S="3156" G="0" />
                 <Word T="poborca podatków;" S="5057" G="1" />
-                <Word T="Jakub–" S="2385" G="0" />
+                <Word T="Jakub –" S="2385" G="0" />
                 <Word T="ten," S="3588" G="0" />
                 <Word T="(który jest synem)" G="0" />
                 <Word T="Alfeusza" S="256" G="0" />
@@ -5604,7 +5604,7 @@
                 <Word T="Kananejczyk" S="2581" G="0" />
                 <Word T="i~" S="2532" G="0" />
                 <Word T="Juda" S="2455" G="0" />
-                <Word T="Iskariota–" S="2469" G="0" />
+                <Word T="Iskariota –" S="2469" G="0" />
                 <Word T="ten, co" S="3588" G="1" />
                 <Word T="go" S="846" G="0" />
                 <Word T="również" S="2532" G="0" />
@@ -6002,7 +6002,7 @@
                 <Word T="jego" S="846" G="0" />
                 <Word T="nauczyciel," S="1320" G="0" />
                 <Word T="i~" S="2532" G="0" />
-                <Word T="niewolnik–" S="1401" G="0" />
+                <Word T="niewolnik –" S="1401" G="0" />
                 <Word T="jak" S="5613" G="0" />
                 <Word T="jego" S="846" G="0" />
                 <Word T="pan." S="2962" G="0" />
@@ -6197,7 +6197,7 @@
                 <Word T="swemu" S="846" G="0" />
                 <Word T="ojcu," S="3962" G="0" />
                 <Word T="i~" S="2532" G="0" />
-                <Word T="córka–" S="2364" G="0" />
+                <Word T="córka –" S="2364" G="0" />
                 <Word T="przeciwko" S="2596" G="0" />
                 <Word T="swojej" S="846" G="0" />
                 <Word T="matce," S="3384" G="0" />

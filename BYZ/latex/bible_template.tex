@@ -1,28 +1,22 @@
-\documentclass[10pt,paper=a5,pagesize=pdftex]{article}
+\documentclass[11pt]{article}
+
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{polski}
-%\usepackage[pagestyles]{titlesec}
 \usepackage{lettrine}
 \usepackage{setspace}
 \usepackage[polish]{babel}
-\usepackage{soul}
 \usepackage{ulem}
+%\usepackage{soul}
 %\usepackage{ebgaramond}
-%usepackage{lmodern}  
 \usepackage{lipsum}
 \usepackage{ragged2e}
 \usepackage[extramarks]{titleps}
-\usepackage{lipsum}
-%\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
-%\usepackage{fancyhdr}
-%  \pagestyle{fancy}
-%  \fancyhf{}
-%  \fancyhead[RO,LE]{\rightmark}
-%  \renewcommand{\headrulewidth}{.5pt}
+\usepackage[table,hyperref,dvipsnames]{xcolor}
+
 \selectlanguage{polish}
 
-% counters
+% counters & marks
 \newcounter{chaptercounter}
 \newmarkset{chaptercounter}
 \newextramark*{chaptercounter}{chaptercounter}
@@ -34,6 +28,18 @@
 \newcommand{\thechapter}{\arabic{chaptercounter}}
 \newcommand{\theverse}{\arabic{versecounter}}
 
+\newcommand\stepchapter{%
+\stepcounter{chaptercounter}%
+\extramark{chaptercounter}%
+}
+
+\newcommand\stepverse{%
+\stepcounter{versecounter}%
+\extramark{versecounter}%
+\extramark{chaptercounter}%
+}
+
+% pagestyle
 \newpagestyle{biblestyle}{
   \setheadrule{.009pt}
   \sethead[\thepage][]
@@ -47,27 +53,31 @@
 
 \pagestyle{biblestyle}
       
-% fonts
+% extra fonts
 \font\strong=phvr at 5pt
 
-
-\newcommand\stepchapter{%
-\stepcounter{chaptercounter}%
-\extramark{chaptercounter}%
-}
-
-\newcommand\stepverse{%
-\stepcounter{versecounter}%
-\extramark{versecounter}%
-\extramark{chaptercounter}%
-}
-
-% lettrine configuration
+% lettrine settings
 \renewcommand{\LettrineFontHook}{\bfseries}
 \renewcommand{\DefaultLoversize}{0.3}
 \renewcommand{\DefaultLraise}{0.2}
 
-%**************  macros
+% underlines settings
+\renewcommand{\ULthickness}{0.3pt}              
+\renewcommand{\ULdepth}{1ex}                 
+
+
+%\newcommand\cmd{\bgroup \UL@setULdepth
+% \markoverwith{\lower\ULdepth\hbox
+%   {\kern-.03em\vbox{\hrule width.2em\kern1.2\p@\hrule}\kern-.03em}}%
+% \ULon}
+
+\newcommand\abcd{\bgroup \markoverwith%
+{\textcolor{green}{\rule[-0.5ex]{2pt}{0.6pt}}}\ULon}
+
+\newcommand\usingle[1]{\uline{#1}}
+\newcommand\udouble[1]{\uuline{#1}}
+
+% macros
 % word with strong number above
 \newcommand\wrd[2]{%
   \leavevmode
@@ -81,24 +91,16 @@
   }%
 }
 
-% double underline
-\newcommand\usingle[1]{\uline{#1}}
-\newcommand\udouble[1]{\uuline{#1}}
-
-% underlines
-\renewcommand{\ULthickness}{0.3pt}              
-\renewcommand{\ULdepth}{1ex}                 
-
 % bible verse
-\newcommand*\bverse[1]{%
+\newcommand*\bverse{%
  \stepverse%
- \textsuperscript{\textbf{\normalsize  #1}}%
+ \textsuperscript{\textbf{\small\theverse} }%
  }
  
 % bible chapter
- \newcommand*\bchapter[1]{%
+ \newcommand*\bchapter{%
  \stepchapter%
- \lettrine{#1}{}%
+ \lettrine{\thechapter}{}%
  }
  
 \begin{document}

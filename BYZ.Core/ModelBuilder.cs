@@ -32,7 +32,7 @@ namespace BYZ.Core
                 currentVerse.Words.Add(new Word()
                 {
                     Strong = word.Strong,
-                    Pol = word.SegL.Trim() + AddConnectorIfOneChar(word.Pol) + word.SegR.Trim(),
+                    Pol = word.SegL.Trim() + AddConnectorIfOneChar(word.Pol) + AddSpaceBeforeDashIfExists(word.SegR.Trim()),
                     WordGroup = word.WordGroup
                 });
             }
@@ -50,6 +50,12 @@ namespace BYZ.Core
             word = word.Trim();
             return word.Length == 1 ? word + "~" : word;
         }
+
+        private string AddSpaceBeforeDashIfExists(string word)
+        {
+            return word.Length > 0 && word[0] == '–' ? " " + word : word;
+        }
+
 
         private void ComputeUnderlines(Verse verse)
         {

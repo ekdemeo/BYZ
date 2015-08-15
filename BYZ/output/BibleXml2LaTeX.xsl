@@ -10,15 +10,15 @@
 
     <xsl:template match="Book">
         <xsl:for-each select="Chapters/Chapter">
-            \bchapter{<xsl:value-of select="@N" /><xsl:text>}</xsl:text>
+            \bchapter<!--{<xsl:value-of select="@N" /><xsl:text>}</xsl:text>-->
             <xsl:for-each select="Verses/Verse">
-                \bverse{<xsl:value-of select="@N" /><xsl:text>}</xsl:text>
+                \bverse<!--{<xsl:value-of select="@N" /><xsl:text>}</xsl:text>-->
                 <xsl:for-each select="Words/Word">
                     <xsl:if test="@G='1'">
-                        \underline{\wrd{<xsl:value-of select="@S" />}{<xsl:value-of select="@T" /><xsl:text>}}</xsl:text>
+                        \usingle{\wrd{<xsl:value-of select="@S" />}{<xsl:value-of select="@T" /><xsl:text>}}</xsl:text>
                     </xsl:if>
                     <xsl:if test="@G='2'">
-                        \doubleline{\wrd{<xsl:value-of select="@S" />}{<xsl:value-of select="@T" /><xsl:text>}}</xsl:text>
+                        \udouble{\wrd{<xsl:value-of select="@S" />}{<xsl:value-of select="@T" /><xsl:text>}}</xsl:text>
                     </xsl:if>
                     <xsl:if test="@G='0'">
                         \wrd{<xsl:value-of select="@S" />}{<xsl:value-of select="@T" /><xsl:text>}</xsl:text>
