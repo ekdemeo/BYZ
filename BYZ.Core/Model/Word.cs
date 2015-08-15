@@ -14,6 +14,9 @@ namespace BYZ.Core.Model
         [XmlAttribute("G")]
         public int Underline { get; set; }
 
+        [XmlAttribute("NB")]
+        public int IsNonBreakable { get; set; }
+
         [XmlIgnore]
         public int WordGroup { get; set; }
     }

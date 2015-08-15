@@ -32,8 +32,9 @@ namespace BYZ.Core
                 currentVerse.Words.Add(new Word()
                 {
                     Strong = word.Strong,
-                    Pol = word.SegL.Trim() + AddConnectorIfOneChar(word.Pol) + AddSpaceBeforeDashIfExists(word.SegR.Trim()),
-                    WordGroup = word.WordGroup
+                    Pol = word.SegL.Trim() + word.Pol + AddSpaceBeforeDashIfExists(word.SegR.Trim()),
+                    WordGroup = word.WordGroup,
+                    IsNonBreakable = CheckIsNonBreakable(word)
                 });
             }
 
@@ -43,6 +44,11 @@ namespace BYZ.Core
             }
 
             return book;
+        }
+
+        private int CheckIsNonBreakable(WordTranslation word)
+        {
+            return (word.Pol.Length == 1 || word.Pol.Last() == '–') ? 1 : 0;
         }
 
         private string AddConnectorIfOneChar(string word)

@@ -14,6 +14,8 @@
             <xsl:for-each select="Verses/Verse">
                 \bverse<!--{<xsl:value-of select="@N" /><xsl:text>}</xsl:text>-->
                 <xsl:for-each select="Words/Word">
+                    <xsl:if test="@NB='1'">
+                        \nobreakvartrue</xsl:if>
                     <xsl:if test="@G='1'">
                         \usingle{\wrd{<xsl:value-of select="@S" />}{<xsl:value-of select="@T" /><xsl:text>}}</xsl:text>
                     </xsl:if>

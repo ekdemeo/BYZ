@@ -13,6 +13,10 @@
 \usepackage{ragged2e}
 \usepackage[extramarks]{titleps}
 \usepackage[table,hyperref,dvipsnames]{xcolor}
+%\usepackage[draft,nosingleletter]{impnattypo}
+
+\widowpenalty10000  
+\clubpenalty10000
 
 \selectlanguage{polish}
 
@@ -43,9 +47,9 @@
 \newpagestyle{biblestyle}{
   \setheadrule{.009pt}
   \sethead[\thepage][]
-    [\topextramarks{chaptercounter}{\thechapter}:\topextramarks{versecounter}{\theverse}---%
+    [\topextramarks{chaptercounter}{\thechapter}:\topextramarks{versecounter}{\theverse}--%
       \botextramarks{chaptercounter}{\thechapter}:\botextramarks{versecounter}{\theverse}]%
-    {\topextramarks{chaptercounter}{\thechapter}:\topextramarks{versecounter}{\theverse}---%
+    {\topextramarks{chaptercounter}{\thechapter}:\topextramarks{versecounter}{\theverse}--%
       \botextramarks{chaptercounter}{\thechapter}:\botextramarks{versecounter}{\theverse}}
       {\chaptertitle}
       {\thepage}
@@ -95,6 +99,8 @@
 % footnotes
 \renewcommand{\thefootnote}{\textit{\alph{footnote}}}
 
+\newif\ifnobreakvar
+
 % macros
 % word with strong number above
 \newcommand\wrd[2]{%
@@ -107,7 +113,13 @@
       \vphantom{A}#2\cr
     }%
   }%
+  \ifnobreakvar \nobreakspace \fi
+  \nobreakvarfalse
 }
+
+
+
+
 
 % bible verse
 \newcommand*\bverse{%
@@ -118,7 +130,7 @@
 % bible chapter
  \newcommand*\bchapter{%
  \stepchapter%
- \lettrine{\thechapter}{}%
+ \lettrine{\thechapter}{} %
  }
  
 \begin{document}
