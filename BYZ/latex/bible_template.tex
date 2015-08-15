@@ -62,20 +62,38 @@
 \renewcommand{\DefaultLraise}{0.2}
 
 % underlines settings
-\renewcommand{\ULthickness}{0.3pt}              
-\renewcommand{\ULdepth}{1ex}                 
+                
 
+\newdimen\uulinesep
+\setlength{\uulinesep}{0.6pt}
+\makeatletter
+% renew uuline to contol sep between lines
+\renewcommand*{\uuline}{%
+  \bgroup
+  \UL@setULdepth
+  \markoverwith{%
+    \lower\ULdepth\hbox{%
+      \kern-.03em%
+      \vtop{%
+        \hrule width.2em%
+        \kern\uulinesep
+        \hrule
+      }%
+      \kern-.03em%
+    }%
+  }%
+  \ULon
+}
+\makeatother
 
-%\newcommand\cmd{\bgroup \UL@setULdepth
-% \markoverwith{\lower\ULdepth\hbox
-%   {\kern-.03em\vbox{\hrule width.2em\kern1.2\p@\hrule}\kern-.03em}}%
-% \ULon}
-
-\newcommand\abcd{\bgroup \markoverwith%
-{\textcolor{green}{\rule[-0.5ex]{2pt}{0.6pt}}}\ULon}
+\renewcommand{\ULthickness}{0.4pt}              
+\renewcommand{\ULdepth}{0.8ex} 
 
 \newcommand\usingle[1]{\uline{#1}}
 \newcommand\udouble[1]{\uuline{#1}}
+
+% footnotes
+\renewcommand{\thefootnote}{\textit{\alph{footnote}}}
 
 % macros
 % word with strong number above
