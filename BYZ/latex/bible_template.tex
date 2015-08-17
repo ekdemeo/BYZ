@@ -97,7 +97,11 @@
 \newcommand\udouble[1]{\uuline{#1}}
 
 % footnotes
-\renewcommand{\thefootnote}{\textit{\alph{footnote}}}
+\renewcommand{\thefootnote}{}
+\newcommand\versefootnote[1]{%
+\footnotemark %
+\footnotetext{\textit{\thechapter:\theverse \ #1}}
+}
 
 \newif\ifnobreakvar
 
